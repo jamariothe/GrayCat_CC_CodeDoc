@@ -1,5 +1,5 @@
 [OPTIONS]
-Compiled file=GrayCat_CC.chm
+Compiled file=GrayCatCC.chm
 Compatibility=1.1
 Full-text search=Yes
 Contents file=index.hhc
@@ -7,19 +7,15 @@ Default Window=main
 Default topic=index.html
 Index file=index.hhk
 Language=0x409 English (United States)
-Title=GrayCat_CC_CodeDoc
+Title=GrayCatCC
 
 [WINDOWS]
-main="GrayCat_CC_CodeDoc","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+main="GrayCatCC","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
 
 [FILES]
-class_tests.html
-class_tests-members.html
 namespace_m_l_space.html
 class_m_l_space_1_1_ammo_clip_discard.html
 class_m_l_space_1_1_ammo_clip_discard-members.html
-class_m_l_space_1_1_animation_clip_info_properties.html
-class_m_l_space_1_1_animation_clip_info_properties-members.html
 class_m_l_space_1_1_audio_manager.html
 class_m_l_space_1_1_audio_manager-members.html
 class_m_l_space_1_1_base_camera_holder.html
@@ -217,26 +213,24 @@ class_m_l_space_1_1_m_l_editor_1_1_weapon_creator-members.html
 class_m_l_space_1_1_m_l_editor_1_1_weapon_item_editor.html
 class_m_l_space_1_1_m_l_editor_1_1_weapon_item_editor-members.html
 namespace_unity_editor.html
-dir_e36c35f73e571be0fe99dc4dae4750e1.html
-dir_6b5eca143f3f1058a0955fe0106397b5.html
-dir_56be4bda8058f71a709a50407ed3a3b9.html
-dir_b54b9cea4fcbbfff4a4f45b9da5f059f.html
-dir_af444b2624b4058a4307db739030c532.html
-dir_1dc94b552ed99ef304a072a33bcdb4d4.html
-dir_0cd2b068b9fb4946331276551963b67b.html
-dir_98592eec46b55cb4f19f6c0c936063dc.html
-dir_a3a56518a5b82c00c1b7ebae79f1e238.html
-dir_fa345339554e6b23bf3f4727c456a1d6.html
-dir_28d5d1dff5822fcc817525a2983012ff.html
-dir_81eaeb12c88bd690d367ba0925b6a670.html
+dir_83df484ab04a4d34a7ccb7d8faa0aba8.html
+dir_29a8a06360f2c689b01d11e96c648d9c.html
+dir_b3707aa3fc1e07fa66b52958870e2468.html
+dir_8e6b3d9c04fef2a992f3c4538b5a5186.html
+dir_2bdc3f352796c5b000abc4c3df764037.html
+dir_6deee233bcdc916b0ff2306587eb60a2.html
+dir_b7d965a5de6efdf25f3fb651fb1337d7.html
+dir_44a13d70335261aee6b381806c1adfcd.html
+dir_6b402137ae636ba25aa3f6946edd203b.html
+dir_96340560906f28ec4e4b216c2401dc48.html
+dir_219b782ba07d5f412da18ab7a0395107.html
+dir_af0b6dc324c9fb6a856e9c2bcf502045.html
 dir_111920d48ddaf11a52fb932100958ac9.html
-dir_2970545e72133d8779db0ba9aae2ec12.html
-dir_89dd627d95a8a0cbb1821fe3d1abaa14.html
-dir_de55214bdb87835a3efc88e3ce75f0d3.html
-dir_6df8a9c33f5b6dbd47f363d465ec22e3.html
-dir_bb5ba271bbaa0d1dd7137a7daf22ec11.html
+dir_10693f8d7a827d9e313fc8e0638ae983.html
+dir_6e6cdf6663a100d5e2f1ac7ed475c5db.html
+dir_549684031f6f738352ef0f6b106b58da.html
 dir_003aa41c1529d21cdeafd64c6e1437d9.html
-dir_b3d731dc499f2d11ccc28960c2136388.html
+dir_9e094dfbfaa0b5c7077873529790328d.html
 index.html
 namespaces.html
 namespacemembers.html
@@ -330,7 +324,6 @@ open.png
 bdwn.png
 sync_on.png
 sync_off.png
-class_tests.png
 class_m_l_space_1_1_ammo_clip_discard.png
 class_m_l_space_1_1_audio_manager.png
 class_m_l_space_1_1_base_camera_holder.png

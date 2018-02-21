@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GrayCat_CC_CodeDoc: MLSpace.CoverTrigger Class Reference</title>
+<title>GrayCatCC: MLSpace.CoverTrigger Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">GrayCat_CC_CodeDoc
+   <div id="projectname">GrayCatCC
    </div>
   </td>
  </tr>
@@ -44,6 +44,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="class_m_l_space_1_1_cover_trigger-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MLSpace.CoverTrigger Class Reference</div>  </div>
@@ -65,7 +66,7 @@ Inheritance diagram for MLSpace.CoverTrigger:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a965e34b61834d7c8a2b9b48f532fb447"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_cover_trigger.html#a965e34b61834d7c8a2b9b48f532fb447">initialize</a> ()</td></tr>
-<tr class="memdesc:a965e34b61834d7c8a2b9b48f532fb447"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize component.  <a href="#a965e34b61834d7c8a2b9b48f532fb447">More...</a><br /></td></tr>
+<tr class="memdesc:a965e34b61834d7c8a2b9b48f532fb447"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize component  <a href="#a965e34b61834d7c8a2b9b48f532fb447">More...</a><br /></td></tr>
 <tr class="separator:a965e34b61834d7c8a2b9b48f532fb447"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5955ee437b35e8b6485f265d4e9af4f9"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_cover_trigger.html#a5955ee437b35e8b6485f265d4e9af4f9">clear</a> ()</td></tr>
 <tr class="memdesc:a5955ee437b35e8b6485f265d4e9af4f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear references  <a href="#a5955ee437b35e8b6485f265d4e9af4f9">More...</a><br /></td></tr>
@@ -98,15 +99,24 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ad53f6616810aa039c8ab9801de8e3abf"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_cover_trigger.html#ad53f6616810aa039c8ab9801de8e3abf">leftNeightbour</a></td></tr>
-<tr class="memdesc:ad53f6616810aa039c8ab9801de8e3abf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Left cover neighbour  <a href="#ad53f6616810aa039c8ab9801de8e3abf">More...</a><br /></td></tr>
-<tr class="separator:ad53f6616810aa039c8ab9801de8e3abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11fa698267f548cdbd0a51e71e50d2b4"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_cover_trigger.html#a11fa698267f548cdbd0a51e71e50d2b4">leftNeighbour</a></td></tr>
+<tr class="memdesc:a11fa698267f548cdbd0a51e71e50d2b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Right cover neighbour from user view  <a href="#a11fa698267f548cdbd0a51e71e50d2b4">More...</a><br /></td></tr>
+<tr class="separator:a11fa698267f548cdbd0a51e71e50d2b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb9e721caa472b66bf1c8239228da6f8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_cover_trigger.html#afb9e721caa472b66bf1c8239228da6f8">nearEdgeConditionLeft</a> = true</td></tr>
+<tr class="memdesc:afb9e721caa472b66bf1c8239228da6f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switching cover to left only near left edge  <a href="#afb9e721caa472b66bf1c8239228da6f8">More...</a><br /></td></tr>
+<tr class="separator:afb9e721caa472b66bf1c8239228da6f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a701362d7ea916d00d61f48e55d85f5c0"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_cover_trigger.html#a701362d7ea916d00d61f48e55d85f5c0">rightNeighbour</a></td></tr>
-<tr class="memdesc:a701362d7ea916d00d61f48e55d85f5c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Right cover neighbour  <a href="#a701362d7ea916d00d61f48e55d85f5c0">More...</a><br /></td></tr>
+<tr class="memdesc:a701362d7ea916d00d61f48e55d85f5c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Left cover neighbour from user view  <a href="#a701362d7ea916d00d61f48e55d85f5c0">More...</a><br /></td></tr>
 <tr class="separator:a701362d7ea916d00d61f48e55d85f5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a308853222c3d0e2454031d0d6b721619"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_cover_trigger.html#a308853222c3d0e2454031d0d6b721619">nearEdgeCondition</a> = true</td></tr>
-<tr class="memdesc:a308853222c3d0e2454031d0d6b721619"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switching cover only near edge  <a href="#a308853222c3d0e2454031d0d6b721619">More...</a><br /></td></tr>
-<tr class="separator:a308853222c3d0e2454031d0d6b721619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ed072563949c835b8826ae7f7af4c37"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_cover_trigger.html#a8ed072563949c835b8826ae7f7af4c37">nearEdgeConditionRight</a> = true</td></tr>
+<tr class="memdesc:a8ed072563949c835b8826ae7f7af4c37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switching cover to right only near right edge  <a href="#a8ed072563949c835b8826ae7f7af4c37">More...</a><br /></td></tr>
+<tr class="separator:a8ed072563949c835b8826ae7f7af4c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3964e1fb1ac0cb6c6edf77f84158114"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_cover_trigger.html#aa3964e1fb1ac0cb6c6edf77f84158114">leftForwardNeighbour</a></td></tr>
+<tr class="memdesc:aa3964e1fb1ac0cb6c6edf77f84158114"><td class="mdescLeft">&#160;</td><td class="mdescRight">Left forward cover neighbour from user view  <a href="#aa3964e1fb1ac0cb6c6edf77f84158114">More...</a><br /></td></tr>
+<tr class="separator:aa3964e1fb1ac0cb6c6edf77f84158114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af85ac9d11ce4af392178e4682b540f8b"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_cover_trigger.html#af85ac9d11ce4af392178e4682b540f8b">rightForwardNeighbour</a></td></tr>
+<tr class="memdesc:af85ac9d11ce4af392178e4682b540f8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Right forward cover neighbour from user view  <a href="#af85ac9d11ce4af392178e4682b540f8b">More...</a><br /></td></tr>
+<tr class="separator:af85ac9d11ce4af392178e4682b540f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c01cf50adee79d3d056b1df60ea5227"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_cover_trigger.html#a3c01cf50adee79d3d056b1df60ea5227">disablePhysics</a> = false</td></tr>
 <tr class="memdesc:a3c01cf50adee79d3d056b1df60ea5227"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable physics on trigger  <a href="#a3c01cf50adee79d3d056b1df60ea5227">More...</a><br /></td></tr>
 <tr class="separator:a3c01cf50adee79d3d056b1df60ea5227"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,6 +148,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa3cbe915fa434b659d394c1020b5f151 inherit pub_attribs_class_m_l_space_1_1_trigger"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#aa3cbe915fa434b659d394c1020b5f151">tagged</a></td></tr>
 <tr class="memdesc:aa3cbe915fa434b659d394c1020b5f151 inherit pub_attribs_class_m_l_space_1_1_trigger"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tagged gameobject to use if needed  <a href="class_m_l_space_1_1_trigger.html#aa3cbe915fa434b659d394c1020b5f151">More...</a><br /></td></tr>
 <tr class="separator:aa3cbe915fa434b659d394c1020b5f151 inherit pub_attribs_class_m_l_space_1_1_trigger"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:abe2915af3f748533c547bcaeba736d10"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_cover_trigger.html#abe2915af3f748533c547bcaeba736d10">ui</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan)</td></tr>
+<tr class="memdesc:abe2915af3f748533c547bcaeba736d10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do UI arrows or other UI notications  <a href="#abe2915af3f748533c547bcaeba736d10">More...</a><br /></td></tr>
+<tr class="separator:abe2915af3f748533c547bcaeba736d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -325,7 +341,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 </table>
 </div><div class="memdoc">
 
-<p>Initialize component. </p>
+<p>Initialize component </p>
 
 <p>Reimplemented from <a class="el" href="class_m_l_space_1_1_trigger.html#a0d1afaacfef57fc1e0a3e0206972bcc4">MLSpace.Trigger</a>.</p>
 
@@ -414,6 +430,42 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 
 </div>
 </div>
+<a id="abe2915af3f748533c547bcaeba736d10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe2915af3f748533c547bcaeba736d10">&sect;&nbsp;</a></span>ui()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void MLSpace.CoverTrigger.ui </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a>&#160;</td>
+          <td class="paramname"><em>trigMan</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Do UI arrows or other UI notications </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">trigMan</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="class_m_l_space_1_1_trigger.html#a368306eb14792de99e35f3a3dbfa62bd">MLSpace.Trigger</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a3c01cf50adee79d3d056b1df60ea5227"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c01cf50adee79d3d056b1df60ea5227">&sect;&nbsp;</a></span>disablePhysics</h2>
@@ -431,35 +483,83 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 
 </div>
 </div>
-<a id="ad53f6616810aa039c8ab9801de8e3abf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad53f6616810aa039c8ab9801de8e3abf">&sect;&nbsp;</a></span>leftNeightbour</h2>
+<a id="aa3964e1fb1ac0cb6c6edf77f84158114"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3964e1fb1ac0cb6c6edf77f84158114">&sect;&nbsp;</a></span>leftForwardNeighbour</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Transform MLSpace.CoverTrigger.leftNeightbour</td>
+          <td class="memname">Transform MLSpace.CoverTrigger.leftForwardNeighbour</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Left cover neighbour </p>
+<p>Left forward cover neighbour from user view </p>
 
 </div>
 </div>
-<a id="a308853222c3d0e2454031d0d6b721619"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a308853222c3d0e2454031d0d6b721619">&sect;&nbsp;</a></span>nearEdgeCondition</h2>
+<a id="a11fa698267f548cdbd0a51e71e50d2b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11fa698267f548cdbd0a51e71e50d2b4">&sect;&nbsp;</a></span>leftNeighbour</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MLSpace.CoverTrigger.nearEdgeCondition = true</td>
+          <td class="memname">Transform MLSpace.CoverTrigger.leftNeighbour</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Switching cover only near edge </p>
+<p>Right cover neighbour from user view </p>
+
+</div>
+</div>
+<a id="afb9e721caa472b66bf1c8239228da6f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb9e721caa472b66bf1c8239228da6f8">&sect;&nbsp;</a></span>nearEdgeConditionLeft</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.CoverTrigger.nearEdgeConditionLeft = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Switching cover to left only near left edge </p>
+
+</div>
+</div>
+<a id="a8ed072563949c835b8826ae7f7af4c37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ed072563949c835b8826ae7f7af4c37">&sect;&nbsp;</a></span>nearEdgeConditionRight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.CoverTrigger.nearEdgeConditionRight = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Switching cover to right only near right edge </p>
+
+</div>
+</div>
+<a id="af85ac9d11ce4af392178e4682b540f8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af85ac9d11ce4af392178e4682b540f8b">&sect;&nbsp;</a></span>rightForwardNeighbour</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform MLSpace.CoverTrigger.rightForwardNeighbour</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Right forward cover neighbour from user view </p>
 
 </div>
 </div>
@@ -475,7 +575,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
       </table>
 </div><div class="memdoc">
 
-<p>Right cover neighbour </p>
+<p>Left cover neighbour from user view </p>
 
 </div>
 </div>

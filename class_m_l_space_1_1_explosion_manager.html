@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GrayCat_CC_CodeDoc: MLSpace.ExplosionManager Class Reference</title>
+<title>GrayCatCC: MLSpace.ExplosionManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">GrayCat_CC_CodeDoc
+   <div id="projectname">GrayCatCC
    </div>
   </td>
  </tr>
@@ -72,9 +72,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a53b56c33088e1ea914bc49291edb54cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_explosion_manager.html#a53b56c33088e1ea914bc49291edb54cb">clear</a> ()</td></tr>
 <tr class="memdesc:a53b56c33088e1ea914bc49291edb54cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear references  <a href="#a53b56c33088e1ea914bc49291edb54cb">More...</a><br /></td></tr>
 <tr class="separator:a53b56c33088e1ea914bc49291edb54cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe2264a358e261628d72d56dc2316c50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_explosion.html">Explosion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_explosion_manager.html#afe2264a358e261628d72d56dc2316c50">explodeAt</a> (Vector3 atPosition, float force, float radius, float upForce)</td></tr>
-<tr class="memdesc:afe2264a358e261628d72d56dc2316c50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start explosion at position  <a href="#afe2264a358e261628d72d56dc2316c50">More...</a><br /></td></tr>
-<tr class="separator:afe2264a358e261628d72d56dc2316c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c6212708184f2833cb4cea3260de4ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_explosion.html">Explosion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_explosion_manager.html#a6c6212708184f2833cb4cea3260de4ee">explodeAt</a> (Vector3 atPosition, float force, float radius, float upForce, int mask)</td></tr>
+<tr class="memdesc:a6c6212708184f2833cb4cea3260de4ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start explosion at position  <a href="#a6c6212708184f2833cb4cea3260de4ee">More...</a><br /></td></tr>
+<tr class="separator:a6c6212708184f2833cb4cea3260de4ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -87,9 +87,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a6019a006cb0af9de5ecdda08c97ff0fc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_explosion_manager.html#a6019a006cb0af9de5ecdda08c97ff0fc">explosionLifetime</a> = 5.0f</td></tr>
 <tr class="memdesc:a6019a006cb0af9de5ecdda08c97ff0fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lifetime of explosion before returning to pool.  <a href="#a6019a006cb0af9de5ecdda08c97ff0fc">More...</a><br /></td></tr>
 <tr class="separator:a6019a006cb0af9de5ecdda08c97ff0fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab852872fe845a632b8a1024b53f71ef9"><td class="memItemLeft" align="right" valign="top"><a id="ab852872fe845a632b8a1024b53f71ef9"></a>
-LayerMask&#160;</td><td class="memItemRight" valign="bottom"><b>explosionMask</b></td></tr>
-<tr class="separator:ab852872fe845a632b8a1024b53f71ef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_m_l_space_1_1_explosion.html" title="Explosion effect class. ">Explosion</a> manager. Responsible for creating pool of explosion effects, starting explosions, returning them to pool and updating lifetime. </p>
@@ -121,8 +118,8 @@ LayerMask&#160;</td><td class="memItemRight" valign="bottom"><b>explosionMask</b
 
 </div>
 </div>
-<a id="afe2264a358e261628d72d56dc2316c50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe2264a358e261628d72d56dc2316c50">&sect;&nbsp;</a></span>explodeAt()</h2>
+<a id="a6c6212708184f2833cb4cea3260de4ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c6212708184f2833cb4cea3260de4ee">&sect;&nbsp;</a></span>explodeAt()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -152,7 +149,13 @@ LayerMask&#160;</td><td class="memItemRight" valign="bottom"><b>explosionMask</b
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>upForce</em>&#160;</td>
+          <td class="paramname"><em>upForce</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mask</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
