@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GrayCatCC: MLSpace.Run2Swing2Ledge Class Reference</title>
+<title>GrayCat_CC: MLSpace.Run2Swing2Ledge Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">GrayCatCC
+   <div id="projectname">GrayCat_CC
    </div>
   </td>
  </tr>
@@ -42,8 +42,10 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="class_m_l_space_1_1_run2_swing2_ledge-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MLSpace.Run2Swing2Ledge Class Reference</div>  </div>
@@ -62,6 +64,22 @@ Inheritance diagram for MLSpace.Run2Swing2Ledge:</div>
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:addf3661913a181404b7aad668513ae3b"><td class="memItemLeft" align="right" valign="top"><a id="addf3661913a181404b7aad668513ae3b"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>CatchTargetAdust</b> { <b>None</b>, 
+<b>ToRight</b>, 
+<b>ToLeft</b>
+ }</td></tr>
+<tr class="separator:addf3661913a181404b7aad668513ae3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_class_m_l_space_1_1_trigger"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_m_l_space_1_1_trigger')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_m_l_space_1_1_trigger.html">MLSpace.Trigger</a></td></tr>
+<tr class="memitem:a71d14f378a82d3081f59053e1c1f830e inherit pub_types_class_m_l_space_1_1_trigger"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a71d14f378a82d3081f59053e1c1f830e">InputType</a> { <b>Use</b> = 1, 
+<b>Jump</b> = 2, 
+<b>Horizontal</b> = 4, 
+<b>Vertical</b> = 8
+ }<tr class="memdesc:a71d14f378a82d3081f59053e1c1f830e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input/s needed to start trigger  <a href="class_m_l_space_1_1_trigger.html#a71d14f378a82d3081f59053e1c1f830e">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a71d14f378a82d3081f59053e1c1f830e inherit pub_types_class_m_l_space_1_1_trigger"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1db2e3968c3a8a898688f249b5cee785"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#a1db2e3968c3a8a898688f249b5cee785">condition</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan)</td></tr>
@@ -70,18 +88,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a642143c023f4df136ad3b6daaf5ca757"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#a642143c023f4df136ad3b6daaf5ca757">get_info_text</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan)</td></tr>
 <tr class="memdesc:a642143c023f4df136ad3b6daaf5ca757"><td class="mdescLeft">&#160;</td><td class="mdescRight">get display info text  <a href="#a642143c023f4df136ad3b6daaf5ca757">More...</a><br /></td></tr>
 <tr class="separator:a642143c023f4df136ad3b6daaf5ca757"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abee613aeeb45cc77ea1b35d900665968"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#abee613aeeb45cc77ea1b35d900665968">start</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan, <a class="el" href="class_m_l_space_1_1_i_k_helper.html">IKHelper</a> limbsIK, bool use, bool secondaryUse, bool jump, float v, float h)</td></tr>
-<tr class="memdesc:abee613aeeb45cc77ea1b35d900665968"><td class="mdescLeft">&#160;</td><td class="mdescRight">start trigger interaction  <a href="#abee613aeeb45cc77ea1b35d900665968">More...</a><br /></td></tr>
-<tr class="separator:abee613aeeb45cc77ea1b35d900665968"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3a2d3a4aaa263d454fa3db543a4f2e6"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#af3a2d3a4aaa263d454fa3db543a4f2e6">end</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan, <a class="el" href="class_m_l_space_1_1_i_k_helper.html">IKHelper</a> limbsIK)</td></tr>
 <tr class="memdesc:af3a2d3a4aaa263d454fa3db543a4f2e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">end trigger animations  <a href="#af3a2d3a4aaa263d454fa3db543a4f2e6">More...</a><br /></td></tr>
 <tr class="separator:af3a2d3a4aaa263d454fa3db543a4f2e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b0ea54b2887c7ca2e0cfeec538c313c"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#a5b0ea54b2887c7ca2e0cfeec538c313c">onMatchTargetStart</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan, <a class="el" href="class_m_l_space_1_1_i_k_helper.html">IKHelper</a> limbsIK)</td></tr>
 <tr class="memdesc:a5b0ea54b2887c7ca2e0cfeec538c313c"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes on match target start  <a href="#a5b0ea54b2887c7ca2e0cfeec538c313c">More...</a><br /></td></tr>
 <tr class="separator:a5b0ea54b2887c7ca2e0cfeec538c313c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b73d1a05da57e8d18aa27615c5bc73d"><td class="memItemLeft" align="right" valign="top">override Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#a9b73d1a05da57e8d18aa27615c5bc73d">closestPoint</a> (Vector3 toPoint)</td></tr>
-<tr class="memdesc:a9b73d1a05da57e8d18aa27615c5bc73d"><td class="mdescLeft">&#160;</td><td class="mdescRight">get closest point to this trigger transform target  <a href="#a9b73d1a05da57e8d18aa27615c5bc73d">More...</a><br /></td></tr>
-<tr class="separator:a9b73d1a05da57e8d18aa27615c5bc73d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_m_l_space_1_1_trigger"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_m_l_space_1_1_trigger')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_m_l_space_1_1_trigger.html">MLSpace.Trigger</a></td></tr>
 <tr class="memitem:a0d1afaacfef57fc1e0a3e0206972bcc4 inherit pub_methods_class_m_l_space_1_1_trigger"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a0d1afaacfef57fc1e0a3e0206972bcc4">initialize</a> ()</td></tr>
 <tr class="memdesc:a0d1afaacfef57fc1e0a3e0206972bcc4 inherit pub_methods_class_m_l_space_1_1_trigger"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize component.  <a href="class_m_l_space_1_1_trigger.html#a0d1afaacfef57fc1e0a3e0206972bcc4">More...</a><br /></td></tr>
@@ -89,12 +101,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a613862cf4832d27c58a73d14fb8014ce inherit pub_methods_class_m_l_space_1_1_trigger"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a613862cf4832d27c58a73d14fb8014ce">clear</a> ()</td></tr>
 <tr class="memdesc:a613862cf4832d27c58a73d14fb8014ce inherit pub_methods_class_m_l_space_1_1_trigger"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear references.  <a href="class_m_l_space_1_1_trigger.html#a613862cf4832d27c58a73d14fb8014ce">More...</a><br /></td></tr>
 <tr class="separator:a613862cf4832d27c58a73d14fb8014ce inherit pub_methods_class_m_l_space_1_1_trigger"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1a3b00b0e0a28d457587d520c3d4781 inherit pub_methods_class_m_l_space_1_1_trigger"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#ae1a3b00b0e0a28d457587d520c3d4781">startTrigger</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan, <a class="el" href="class_m_l_space_1_1_i_k_helper.html">IKHelper</a> limbsIK, bool use, bool secondaryUse, bool jump, float v, float h)</td></tr>
+<tr class="memdesc:ae1a3b00b0e0a28d457587d520c3d4781 inherit pub_methods_class_m_l_space_1_1_trigger"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start trigger interaction.  <a href="class_m_l_space_1_1_trigger.html#ae1a3b00b0e0a28d457587d520c3d4781">More...</a><br /></td></tr>
+<tr class="separator:ae1a3b00b0e0a28d457587d520c3d4781 inherit pub_methods_class_m_l_space_1_1_trigger"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d1ba12f1b424396b953ffd3ec645a25 inherit pub_methods_class_m_l_space_1_1_trigger"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a1d1ba12f1b424396b953ffd3ec645a25">onMatchTargetEnd</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan, <a class="el" href="class_m_l_space_1_1_i_k_helper.html">IKHelper</a> limbsIK)</td></tr>
 <tr class="memdesc:a1d1ba12f1b424396b953ffd3ec645a25 inherit pub_methods_class_m_l_space_1_1_trigger"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes on match target end.  <a href="class_m_l_space_1_1_trigger.html#a1d1ba12f1b424396b953ffd3ec645a25">More...</a><br /></td></tr>
 <tr class="separator:a1d1ba12f1b424396b953ffd3ec645a25 inherit pub_methods_class_m_l_space_1_1_trigger"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0c4d329cc55f8b45b17b457d820550b inherit pub_methods_class_m_l_space_1_1_trigger"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#af0c4d329cc55f8b45b17b457d820550b">exit</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan)</td></tr>
 <tr class="memdesc:af0c4d329cc55f8b45b17b457d820550b inherit pub_methods_class_m_l_space_1_1_trigger"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exit trigger.  <a href="class_m_l_space_1_1_trigger.html#af0c4d329cc55f8b45b17b457d820550b">More...</a><br /></td></tr>
 <tr class="separator:af0c4d329cc55f8b45b17b457d820550b inherit pub_methods_class_m_l_space_1_1_trigger"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2198ca56e33836d6fea7cdc012f80daf inherit pub_methods_class_m_l_space_1_1_trigger"><td class="memItemLeft" align="right" valign="top">virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a2198ca56e33836d6fea7cdc012f80daf">closestPoint</a> (Vector3 toPoint)</td></tr>
+<tr class="memdesc:a2198ca56e33836d6fea7cdc012f80daf inherit pub_methods_class_m_l_space_1_1_trigger"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get closest point to this trigger. Return null to disable.  <a href="class_m_l_space_1_1_trigger.html#a2198ca56e33836d6fea7cdc012f80daf">More...</a><br /></td></tr>
+<tr class="separator:a2198ca56e33836d6fea7cdc012f80daf inherit pub_methods_class_m_l_space_1_1_trigger"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -104,6 +122,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:abc8a1d253b767b759a053661422e3630"><td class="memItemLeft" align="right" valign="top">AvatarTarget&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#abc8a1d253b767b759a053661422e3630">catchTarget</a> = AvatarTarget.RightHand</td></tr>
 <tr class="memdesc:abc8a1d253b767b759a053661422e3630"><td class="mdescLeft">&#160;</td><td class="mdescRight">Match target catch avatar target.  <a href="#abc8a1d253b767b759a053661422e3630">More...</a><br /></td></tr>
 <tr class="separator:abc8a1d253b767b759a053661422e3630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2187693eb43e08205aeadf7a9c39bc6"><td class="memItemLeft" align="right" valign="top">CatchTargetAdust&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#af2187693eb43e08205aeadf7a9c39bc6">moveCatchPosition</a> = CatchTargetAdust.ToRight</td></tr>
+<tr class="memdesc:af2187693eb43e08205aeadf7a9c39bc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move closest position invards left or right?  <a href="#af2187693eb43e08205aeadf7a9c39bc6">More...</a><br /></td></tr>
+<tr class="separator:af2187693eb43e08205aeadf7a9c39bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a085ace04d13b634dda05a75fe10296f0"><td class="memItemLeft" align="right" valign="top"><a id="a085ace04d13b634dda05a75fe10296f0"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>addedSwingVelocity</b> = 10.0f</td></tr>
+<tr class="separator:a085ace04d13b634dda05a75fe10296f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_m_l_space_1_1_trigger"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_m_l_space_1_1_trigger')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_m_l_space_1_1_trigger.html">MLSpace.Trigger</a></td></tr>
 <tr class="memitem:a149d0b84f838b0a344d67c5069843594 inherit pub_attribs_class_m_l_space_1_1_trigger"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a149d0b84f838b0a344d67c5069843594">Target</a></td></tr>
 <tr class="memdesc:a149d0b84f838b0a344d67c5069843594 inherit pub_attribs_class_m_l_space_1_1_trigger"><td class="mdescLeft">&#160;</td><td class="mdescRight">Target transform.  <a href="class_m_l_space_1_1_trigger.html#a149d0b84f838b0a344d67c5069843594">More...</a><br /></td></tr>
@@ -132,13 +156,22 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa3cbe915fa434b659d394c1020b5f151 inherit pub_attribs_class_m_l_space_1_1_trigger"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#aa3cbe915fa434b659d394c1020b5f151">tagged</a></td></tr>
 <tr class="memdesc:aa3cbe915fa434b659d394c1020b5f151 inherit pub_attribs_class_m_l_space_1_1_trigger"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tagged gameobject to use if needed  <a href="class_m_l_space_1_1_trigger.html#aa3cbe915fa434b659d394c1020b5f151">More...</a><br /></td></tr>
 <tr class="separator:aa3cbe915fa434b659d394c1020b5f151 inherit pub_attribs_class_m_l_space_1_1_trigger"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a399be59d3b91dc67afd28eb778378535 inherit pub_attribs_class_m_l_space_1_1_trigger"><td class="memItemLeft" align="right" valign="top"><a id="a399be59d3b91dc67afd28eb778378535"></a>
+<a class="el" href="class_m_l_space_1_1_trigger.html#a71d14f378a82d3081f59053e1c1f830e">InputType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>inputTypeToStartTrigger</b> = InputType.Use</td></tr>
+<tr class="separator:a399be59d3b91dc67afd28eb778378535 inherit pub_attribs_class_m_l_space_1_1_trigger"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:abee613aeeb45cc77ea1b35d900665968"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#abee613aeeb45cc77ea1b35d900665968">start</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan, <a class="el" href="class_m_l_space_1_1_i_k_helper.html">IKHelper</a> limbsIK, bool use, bool secondaryUse, bool jump, float v, float h)</td></tr>
+<tr class="memdesc:abee613aeeb45cc77ea1b35d900665968"><td class="mdescLeft">&#160;</td><td class="mdescRight">start trigger interaction  <a href="#abee613aeeb45cc77ea1b35d900665968">More...</a><br /></td></tr>
+<tr class="separator:abee613aeeb45cc77ea1b35d900665968"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_m_l_space_1_1_trigger"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_m_l_space_1_1_trigger')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_m_l_space_1_1_trigger.html">MLSpace.Trigger</a></td></tr>
 <tr class="memitem:a368306eb14792de99e35f3a3dbfa62bd inherit pro_methods_class_m_l_space_1_1_trigger"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a368306eb14792de99e35f3a3dbfa62bd">ui</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan)</td></tr>
 <tr class="memdesc:a368306eb14792de99e35f3a3dbfa62bd inherit pro_methods_class_m_l_space_1_1_trigger"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do UI arrows or other UI notications  <a href="class_m_l_space_1_1_trigger.html#a368306eb14792de99e35f3a3dbfa62bd">More...</a><br /></td></tr>
 <tr class="separator:a368306eb14792de99e35f3a3dbfa62bd inherit pro_methods_class_m_l_space_1_1_trigger"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_class_m_l_space_1_1_trigger"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_m_l_space_1_1_trigger')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_m_l_space_1_1_trigger.html">MLSpace.Trigger</a></td></tr>
 <tr class="memitem:a14cf2596ebd4cf3e428c8fa5250635b2 inherit pro_attribs_class_m_l_space_1_1_trigger"><td class="memItemLeft" align="right" valign="top"><a id="a14cf2596ebd4cf3e428c8fa5250635b2"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_ConditionPassed</b> = false</td></tr>
@@ -150,43 +183,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_m_l_space_1_1_trigger.html" title="Base trigger class. NOTE: Be carefull with state names, they are used for matching target...">Trigger</a> that start run and swing to ledge action </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9b73d1a05da57e8d18aa27615c5bc73d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b73d1a05da57e8d18aa27615c5bc73d">&sect;&nbsp;</a></span>closestPoint()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">override Vector3 MLSpace.Run2Swing2Ledge.closestPoint </td>
-          <td>(</td>
-          <td class="paramtype">Vector3&#160;</td>
-          <td class="paramname"><em>toPoint</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>get closest point to this trigger transform target </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">toPoint</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-<p>Reimplemented from <a class="el" href="class_m_l_space_1_1_trigger.html#a2198ca56e33836d6fea7cdc012f80daf">MLSpace.Trigger</a>.</p>
-
-</div>
-</div>
 <a id="a1db2e3968c3a8a898688f249b5cee785"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1db2e3968c3a8a898688f249b5cee785">&sect;&nbsp;</a></span>condition()</h2>
 
@@ -414,7 +410,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -451,6 +447,22 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 </div><div class="memdoc">
 
 <p>Match target catch avatar target. </p>
+
+</div>
+</div>
+<a id="af2187693eb43e08205aeadf7a9c39bc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2187693eb43e08205aeadf7a9c39bc6">&sect;&nbsp;</a></span>moveCatchPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CatchTargetAdust MLSpace.Run2Swing2Ledge.moveCatchPosition = CatchTargetAdust.ToRight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Move closest position invards left or right? </p>
 
 </div>
 </div>

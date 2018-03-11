@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GrayCatCC: MLSpace.Player Class Reference</title>
+<title>GrayCat_CC: MLSpace.Player Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">GrayCatCC
+   <div id="projectname">GrayCat_CC
    </div>
   </td>
  </tr>
@@ -44,6 +44,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
@@ -162,18 +163,20 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aaa6ce24626f59310d530ead15078dbbc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player.html#aaa6ce24626f59310d530ead15078dbbc">viewReloadFromBack</a> = true</td></tr>
 <tr class="memdesc:aaa6ce24626f59310d530ead15078dbbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true - camera will move to player cam holder on reload and return after reload is done.  <a href="#aaa6ce24626f59310d530ead15078dbbc">More...</a><br /></td></tr>
 <tr class="separator:aaa6ce24626f59310d530ead15078dbbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9cbaf13ef7936756ee3480ab41728c3"><td class="memItemLeft" align="right" valign="top"><a id="ae9cbaf13ef7936756ee3480ab41728c3"></a>
-List&lt; <a class="el" href="class_m_l_space_1_1_weapon_item.html">WeaponItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>weaponList</b></td></tr>
-<tr class="separator:ae9cbaf13ef7936756ee3480ab41728c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d636ac9751301495985de99d5cf1c93"><td class="memItemLeft" align="right" valign="top"><a id="a3d636ac9751301495985de99d5cf1c93"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>m_CurrentWeaponIndex</b> = 0</td></tr>
-<tr class="separator:a3d636ac9751301495985de99d5cf1c93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e43dbf54ab53eb514d2d0e2507fa86c"><td class="memItemLeft" align="right" valign="top"><a id="a2e43dbf54ab53eb514d2d0e2507fa86c"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>shootAtCrosshair</b> = false</td></tr>
 <tr class="separator:a2e43dbf54ab53eb514d2d0e2507fa86c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ebe5a754d27db802a463ae996f302ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_l_space.html#a32a47e3bab93d44c0aeb4e2ee22a4f09">VoidFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player.html#a3ebe5a754d27db802a463ae996f302ec">OnWeaponPutawayCallback</a> = null</td></tr>
 <tr class="memdesc:a3ebe5a754d27db802a463ae996f302ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fired on weapon leaving  <a href="#a3ebe5a754d27db802a463ae996f302ec">More...</a><br /></td></tr>
 <tr class="separator:a3ebe5a754d27db802a463ae996f302ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
+Protected Types</h2></td></tr>
+<tr class="memitem:a23500bfc458ae69d19e4bfea2728cad4"><td class="memItemLeft" align="right" valign="top"><a id="a23500bfc458ae69d19e4bfea2728cad4"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>WeaponActionType</b> { <b>ShowWeapon</b>, 
+<b>HideWeapon</b>, 
+<b>TakeLeaveWeapon</b>
+ }</td></tr>
+<tr class="separator:a23500bfc458ae69d19e4bfea2728cad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -335,9 +338,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Attack</b> = false<
 <tr class="memitem:a244616d038c43a5997464abb723a2d45"><td class="memItemLeft" align="right" valign="top"><a id="a244616d038c43a5997464abb723a2d45"></a>
 Quaternion&#160;</td><td class="memItemRight" valign="bottom"><b>m_OrigAimRotation</b></td></tr>
 <tr class="separator:a244616d038c43a5997464abb723a2d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb83a879acdade9d9fc5fcbe89dac052"><td class="memItemLeft" align="right" valign="top"><a id="abb83a879acdade9d9fc5fcbe89dac052"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>m_AimTime</b> = 0.52125f</td></tr>
-<tr class="separator:abb83a879acdade9d9fc5fcbe89dac052"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93b9f83c1ef06ce88924b9d39e1ffc6a"><td class="memItemLeft" align="right" valign="top"><a id="a93b9f83c1ef06ce88924b9d39e1ffc6a"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_LerpCameraInProgress</b> = false</td></tr>
 <tr class="separator:a93b9f83c1ef06ce88924b9d39e1ffc6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -380,6 +380,30 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_StartCamTransitionF
 <tr class="memitem:a4ad008e729986b8f3dd8e906968b1745"><td class="memItemLeft" align="right" valign="top"><a id="a4ad008e729986b8f3dd8e906968b1745"></a>
 Transform&#160;</td><td class="memItemRight" valign="bottom"><b>m_NewCameraTransform</b></td></tr>
 <tr class="separator:a4ad008e729986b8f3dd8e906968b1745"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ce27ace570972653799a2bae7c370eb"><td class="memItemLeft" align="right" valign="top"><a id="a1ce27ace570972653799a2bae7c370eb"></a>
+WeaponActionType&#160;</td><td class="memItemRight" valign="bottom"><b>m_WeaponAction</b> = WeaponActionType.TakeLeaveWeapon</td></tr>
+<tr class="separator:a1ce27ace570972653799a2bae7c370eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abae28a6ebaa8f2aca06722dc32c77dc1"><td class="memItemLeft" align="right" valign="top"><a id="abae28a6ebaa8f2aca06722dc32c77dc1"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_AimAllowed</b> = false</td></tr>
+<tr class="separator:abae28a6ebaa8f2aca06722dc32c77dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f4fb0b712d8b31c1b777930641805b8"><td class="memItemLeft" align="right" valign="top"><a id="a3f4fb0b712d8b31c1b777930641805b8"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_AimAllowedTimer</b> = 0.0f</td></tr>
+<tr class="separator:a3f4fb0b712d8b31c1b777930641805b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8feac3ed9cab10498064e5132925c6a"><td class="memItemLeft" align="right" valign="top"><a id="ad8feac3ed9cab10498064e5132925c6a"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_AimAllowedTime</b> = 1.05f</td></tr>
+<tr class="separator:ad8feac3ed9cab10498064e5132925c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c0d9c6c7c01dcb1d09e5413dee559f0"><td class="memItemLeft" align="right" valign="top"><a id="a3c0d9c6c7c01dcb1d09e5413dee559f0"></a>
+AudioListener&#160;</td><td class="memItemRight" valign="bottom"><b>m_AudioListener</b></td></tr>
+<tr class="separator:a3c0d9c6c7c01dcb1d09e5413dee559f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedad7a604b981b9c63f1b451ed9b3b4a"><td class="memItemLeft" align="right" valign="top"><a id="aedad7a604b981b9c63f1b451ed9b3b4a"></a>
+List&lt; <a class="el" href="class_m_l_space_1_1_weapon_item.html">WeaponItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_WeaponList</b></td></tr>
+<tr class="separator:aedad7a604b981b9c63f1b451ed9b3b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d636ac9751301495985de99d5cf1c93"><td class="memItemLeft" align="right" valign="top"><a id="a3d636ac9751301495985de99d5cf1c93"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>m_CurrentWeaponIndex</b> = 0</td></tr>
+<tr class="separator:a3d636ac9751301495985de99d5cf1c93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3eee8829aeeea19224b04c15c5dede9"><td class="memItemLeft" align="right" valign="top"><a id="af3eee8829aeeea19224b04c15c5dede9"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_AimTimer</b> = 0.0f</td></tr>
+<tr class="separator:af3eee8829aeeea19224b04c15c5dede9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -446,6 +470,12 @@ Properties</h2></td></tr>
 <tr class="memitem:a31ae72084a56b9401f4cc02d7a9f9e02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_car_control_user.html">CarControlUser</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player.html#a31ae72084a56b9401f4cc02d7a9f9e02">carControlUser</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a31ae72084a56b9401f4cc02d7a9f9e02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets current car controller script  <a href="#a31ae72084a56b9401f4cc02d7a9f9e02">More...</a><br /></td></tr>
 <tr class="separator:a31ae72084a56b9401f4cc02d7a9f9e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9cbaf13ef7936756ee3480ab41728c3"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_m_l_space_1_1_weapon_item.html">WeaponItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player.html#ae9cbaf13ef7936756ee3480ab41728c3">weaponList</a><code> [get]</code></td></tr>
+<tr class="memdesc:ae9cbaf13ef7936756ee3480ab41728c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get player's weapon list  <a href="#ae9cbaf13ef7936756ee3480ab41728c3">More...</a><br /></td></tr>
+<tr class="separator:ae9cbaf13ef7936756ee3480ab41728c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb79910fe9be6e9bc00a8b4c8fbc394"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player.html#afeb79910fe9be6e9bc00a8b4c8fbc394">currentWaponIndex</a><code> [get]</code></td></tr>
+<tr class="memdesc:afeb79910fe9be6e9bc00a8b4c8fbc394"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current weapon index  <a href="#afeb79910fe9be6e9bc00a8b4c8fbc394">More...</a><br /></td></tr>
+<tr class="separator:afeb79910fe9be6e9bc00a8b4c8fbc394"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_m_l_space_1_1_player.html" title="Player control class. ">Player</a> control class. </p>
@@ -2027,6 +2057,30 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="afeb79910fe9be6e9bc00a8b4c8fbc394"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeb79910fe9be6e9bc00a8b4c8fbc394">&sect;&nbsp;</a></span>currentWaponIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MLSpace.Player.currentWaponIndex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get current weapon index </p>
+
+</div>
+</div>
 <a id="aa50760f8ee676342d77671baa50d6e8b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa50760f8ee676342d77671baa50d6e8b">&sect;&nbsp;</a></span>currentWeapon</h2>
 
@@ -2360,6 +2414,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets weapon camera array reference. </p>
+
+</div>
+</div>
+<a id="ae9cbaf13ef7936756ee3480ab41728c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9cbaf13ef7936756ee3480ab41728c3">&sect;&nbsp;</a></span>weaponList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_m_l_space_1_1_weapon_item.html">WeaponItem</a>&gt; MLSpace.Player.weaponList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get player's weapon list </p>
 
 </div>
 </div>

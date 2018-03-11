@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GrayCatCC: MLSpace.LedgeManager Class Reference</title>
+<title>GrayCat_CC: MLSpace.LedgeManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">GrayCatCC
+   <div id="projectname">GrayCat_CC
    </div>
   </td>
  </tr>
@@ -44,6 +44,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_m_l_space_1_1_ledge_manager-members.html">List of all members</a>  </div>
@@ -114,6 +115,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac28ab09cbe33d32bca219e38feb2441e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Played on jump to ledge end  <a href="#ac28ab09cbe33d32bca219e38feb2441e">More...</a><br /></td></tr>
 <tr class="separator:ac28ab09cbe33d32bca219e38feb2441e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a79ef765e15a89aad28151fa4c6a3ae69"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_ledge_manager.html#a79ef765e15a89aad28151fa4c6a3ae69">IsWalled</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan, <a class="el" href="class_m_l_space_1_1_ledge.html">Ledge</a> ledge, Vector3 testPosition, bool reversed)</td></tr>
+<tr class="memdesc:a79ef765e15a89aad28151fa4c6a3ae69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if there is a wall in front  <a href="#a79ef765e15a89aad28151fa4c6a3ae69">More...</a><br /></td></tr>
+<tr class="separator:a79ef765e15a89aad28151fa4c6a3ae69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a08aecd0d2422b4d746df2b91bf68b1c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_ledge.html">Ledge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_ledge_manager.html#a08aecd0d2422b4d746df2b91bf68b1c2">NextLedge</a> = null</td></tr>
@@ -125,7 +132,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a164b518e66c3066d1c8c3ffce15338f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_ledge_manager.html#a164b518e66c3066d1c8c3ffce15338f9">jump2LedgeActive</a> = false</td></tr>
 <tr class="memdesc:a164b518e66c3066d1c8c3ffce15338f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">is jumping to ledge active  <a href="#a164b518e66c3066d1c8c3ffce15338f9">More...</a><br /></td></tr>
 <tr class="separator:a164b518e66c3066d1c8c3ffce15338f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a768d58d06daa1a0738253aea380729fc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_ledge_manager.html#a768d58d06daa1a0738253aea380729fc">hangCheckDistance</a> = 0.3f</td></tr>
+<tr class="memitem:a768d58d06daa1a0738253aea380729fc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_ledge_manager.html#a768d58d06daa1a0738253aea380729fc">hangCheckDistance</a> = 0.53f</td></tr>
 <tr class="memdesc:a768d58d06daa1a0738253aea380729fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance to check for wall in fron of player when hanging on ledge  <a href="#a768d58d06daa1a0738253aea380729fc">More...</a><br /></td></tr>
 <tr class="separator:a768d58d06daa1a0738253aea380729fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad32d9492eb1f0bcd09cbfc4b43498c77"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_ledge_manager.html#ad32d9492eb1f0bcd09cbfc4b43498c77">rightHand</a></td></tr>
@@ -146,6 +153,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a9107b4bd2d847a591284f62a9445008b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_ledge_manager.html#a9107b4bd2d847a591284f62a9445008b">jumpDistanceLimit</a> = 7.5f</td></tr>
 <tr class="memdesc:a9107b4bd2d847a591284f62a9445008b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_m_l_space_1_1_ledge.html" title="Ledge component ">Ledge</a> distance allowed limit  <a href="#a9107b4bd2d847a591284f62a9445008b">More...</a><br /></td></tr>
 <tr class="separator:a9107b4bd2d847a591284f62a9445008b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb78fe9ed9e93b9b8c4f9b1823b44a16"><td class="memItemLeft" align="right" valign="top"><a id="aeb78fe9ed9e93b9b8c4f9b1823b44a16"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isReversedOnLedge</b> = false</td></tr>
+<tr class="separator:aeb78fe9ed9e93b9b8c4f9b1823b44a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49ae19955f93cd514eac6ad40d119e0d"><td class="memItemLeft" align="right" valign="top"><a id="a49ae19955f93cd514eac6ad40d119e0d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>dynamicOrientation</b> = true</td></tr>
+<tr class="separator:a49ae19955f93cd514eac6ad40d119e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afef614b83f8e18ef75a76c461fbaa648"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_l_space.html#a32a47e3bab93d44c0aeb4e2ee22a4f09">VoidFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_ledge_manager.html#afef614b83f8e18ef75a76c461fbaa648">OnLedgeExitEnd</a> = null</td></tr>
 <tr class="memdesc:afef614b83f8e18ef75a76c461fbaa648"><td class="mdescLeft">&#160;</td><td class="mdescRight">ledge exit callback  <a href="#afef614b83f8e18ef75a76c461fbaa648">More...</a><br /></td></tr>
 <tr class="separator:afef614b83f8e18ef75a76c461fbaa648"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -360,6 +373,66 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Initialize component </p>
+
+</div>
+</div>
+<a id="a79ef765e15a89aad28151fa4c6a3ae69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79ef765e15a89aad28151fa4c6a3ae69">&sect;&nbsp;</a></span>IsWalled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool MLSpace.LedgeManager.IsWalled </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a>&#160;</td>
+          <td class="paramname"><em>trigMan</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_m_l_space_1_1_ledge.html">Ledge</a>&#160;</td>
+          <td class="paramname"><em>ledge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>testPosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reversed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if there is a wall in front </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">trigMan</td><td></td></tr>
+    <tr><td class="paramname">ledge</td><td></td></tr>
+    <tr><td class="paramname">testPosition</td><td></td></tr>
+    <tr><td class="paramname">reversed</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -651,7 +724,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MLSpace.LedgeManager.hangCheckDistance = 0.3f</td>
+          <td class="memname">float MLSpace.LedgeManager.hangCheckDistance = 0.53f</td>
         </tr>
       </table>
 </div><div class="memdoc">

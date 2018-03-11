@@ -88,6 +88,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ragdoll_manager.html#aac91d98c8e7c927ab21143f95dd96ed1"><param name="Name" value="activeColLayerName"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction.html#a6e5794882b3bdabf8828a50e27dc7b91"><param name="Name" value="add2ExplosionList"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item_advanced.html#a1317b571c2bbd6933cabc51c07af65b1"><param name="Name" value="addedFirePositions"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_run2_swing2_ledge.html#a085ace04d13b634dda05a75fe10296f0"><param name="Name" value="addedSwingVelocity"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#aef0f391c8802ba09d6754c73b6b5cc16"><param name="Name" value="AdditionalCondition"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#aedd711733d3e3aa422d320f0e5ac2bd6"><param name="Name" value="additionalSpineYRotation"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_footsteps_audio.html#a74dd3de3580038d68187febc778e6e9c"><param name="Name" value="additive"></OBJECT>
@@ -102,6 +103,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_hash_i_ds.html#a75f849efd0b15c775e70fae68c847c9e"><param name="Name" value="AimMG_State"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a3dc1192f62f69e9b5d380abd5a9830da"><param name="Name" value="airControl"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a8303e43986decb4fa42e277e141843ad"><param name="Name" value="airSpeed"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#ad033f764aca5dd3e597af6b61f048f5e"><param name="Name" value="allowReverse"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#a32b45fdc1e2466eb260e78f40b7423d1"><param name="Name" value="ammoObject"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_trigger_creator.html#a1eafd3ff85feb072a744b7303cc432b7"><param name="Name" value="angleCondition"></OBJECT>
   <UL>
@@ -157,6 +159,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a8713a5d5d896dab21ab693277e228f2a"><param name="Name" value="BoolDelegate"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_car_controller.html#ae7db55f0e01a8e836abdf87b3cc1b7fe"><param name="Name" value="BrakeInput"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a98c4b58717b35077e1db3f97176e5925"><param name="Name" value="breakCarMode"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a7e412ff8b2bacaf59f85f7642e8932a3"><param name="Name" value="breakTrigger"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_single_action_rifle.html#a87a715e03c067391d2b642814d35d3a7"><param name="Name" value="bulletControlBone"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_weapon_creator.html#a4d5ea637d473e94717783c21b45c730c"><param name="Name" value="bulletEjectPositions"></OBJECT>
@@ -176,13 +179,22 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_car_trigger.html#ae8c84e80eca058e758eca78492acd74a"><param name="Name" value="catchTarget"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_car_trigger.html#ae8c84e80eca058e758eca78492acd74a"><param name="Name" value="MLSpace::CarTrigger"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#ac60f8e05c50ac498e4a57ecdc275ad1e"><param name="Name" value="MLSpace::ClimbOnTrigger"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_enter_ledge_down.html#ad7e7b6edac6fe0f58c6d54957f10629a"><param name="Name" value="MLSpace::EnterLedgeDown"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_generic_trigger.html#a20c9bde6d68ce440b2cd4efa4e73a18f"><param name="Name" value="MLSpace::GenericTrigger"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#ae092687d282f79b7e49a13297f4ec8b0"><param name="Name" value="MLSpace::JumpOverTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_run2_swing2_ledge.html#abc8a1d253b767b759a053661422e3630"><param name="Name" value="MLSpace::Run2Swing2Ledge"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_forward_trigger.html#a1a41411c384f9b5bf8e8b0e5151b4a17"><param name="Name" value="catchTargetRun"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_forward_trigger.html#ac185cc4d5a97e2b6ba2213572a28c4af"><param name="Name" value="catchTargetWalk"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#a2cc5fd4fd0b26b0e3407e3664c0ac48d"><param name="Name" value="catchTargetRun"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#a2cc5fd4fd0b26b0e3407e3664c0ac48d"><param name="Name" value="MLSpace::ClimbOnTrigger"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#a98cfb1265e3e71a028984a9b6c0a8712"><param name="Name" value="MLSpace::JumpOverTrigger"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#ad35225ee7d597d6f8e916fb18b4f7156"><param name="Name" value="MLSpace::Leap"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#a08a4e78c075f51e4b4ded580f307690b"><param name="Name" value="catchTargetWalk"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#a08a4e78c075f51e4b4ded580f307690b"><param name="Name" value="MLSpace::ClimbOnTrigger"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#a3cd20ea8f766c5ecf369cf9fef207e4c"><param name="Name" value="MLSpace::JumpOverTrigger"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#a8980b2a8d4c96f530f38bcad62417dc8"><param name="Name" value="MLSpace::Leap"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_t_p_player_creator.html#afa3f0cfe67b54fa99c28f4ddf2069b47"><param name="Name" value="character"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_t_p_player_creator.html#afa3f0cfe67b54fa99c28f4ddf2069b47"><param name="Name" value="MLSpace::MLEditor::TPPlayerCreator"></OBJECT>
@@ -242,18 +254,13 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_protect_from_walls.html#a897c9ca36c8529542646442597bd0f2d"><param name="Name" value="clipMoveTime"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_m_l_space_1_1_footsteps_struct.html#a3e77283e7e0e4ef5c4bd01ba590f88a1"><param name="Name" value="clips"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_door.html#aebb854cc951c679cea52a319bec196c0"><param name="Name" value="closeDoor"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_door.html#ab22fa469fe6c86973decae956e491f59"><param name="Name" value="closeDoorAudioClip"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_car_control_user.html#a9241a3fa940daf70632c073ae30cba2f"><param name="Name" value="closeDoorClip"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_protect_from_walls.html#a99b99389e1170bf44302ae5771ebec21"><param name="Name" value="closestDistance"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#a5738d2c8e664388cff9cccea522410b5"><param name="Name" value="closestPoint"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_open_door_trigger.html#a802038fd62ff69e4db7109879eb9ae3e"><param name="Name" value="closestPoint"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#a5738d2c8e664388cff9cccea522410b5"><param name="Name" value="MLSpace::ClimbOnTrigger"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_enter_ledge_down.html#a344f005eaf30cd3d4342db67a0aa2e17"><param name="Name" value="MLSpace::EnterLedgeDown"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump2_ledge_trigger.html#aeccfb097587de2a5a63a49e7e0ec3868"><param name="Name" value="MLSpace::Jump2LedgeTrigger"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#a7a85cb19695ec79dd34e06ef2079f063"><param name="Name" value="MLSpace::JumpOverTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_open_door_trigger.html#a802038fd62ff69e4db7109879eb9ae3e"><param name="Name" value="MLSpace::OpenDoorTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_push_pull_trigger.html#accd768b080448f23b4971b399c230629"><param name="Name" value="MLSpace::PushPullTrigger"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_run2_swing2_ledge.html#a9b73d1a05da57e8d18aa27615c5bc73d"><param name="Name" value="MLSpace::Run2Swing2Ledge"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#a2198ca56e33836d6fea7cdc012f80daf"><param name="Name" value="MLSpace::Trigger"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#a873be2c421a9ae8a83b0e98638c42354"><param name="Name" value="cockingHandleClips"></OBJECT>
@@ -272,9 +279,9 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_item_trigger.html#ad8774336f7e4afc1b1a3ce2bb100db97"><param name="Name" value="MLSpace::ItemTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump2_ledge_trigger.html#a9cc658f06a64d20bca4d9d6ab29af6d4"><param name="Name" value="MLSpace::Jump2LedgeTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_down_trigger.html#a065b146309095a280db1b83bef0cb454"><param name="Name" value="MLSpace::JumpDownTrigger"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_forward_trigger.html#a91f3e82657aad8111bdabac2ad0406a8"><param name="Name" value="MLSpace::JumpForwardTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#a4796ce3c2aebaf0dff24d77bd14fb732"><param name="Name" value="MLSpace::JumpOverTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ladder_trigger.html#a159411a7302e719b34911d84a61d7534"><param name="Name" value="MLSpace::LadderTrigger"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#a415a358721a20e3f3fc57070c8caab72"><param name="Name" value="MLSpace::Leap"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a49c438003330fa2d1ab383e2c617ba2f"><param name="Name" value="MLSpace::LedgeManager"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_trigger.html#a8e51bac2bc094c12b9d63882df86d633"><param name="Name" value="MLSpace::LedgeTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_open_door_trigger.html#a2f4d16f7416207fbf95620527c62e71a"><param name="Name" value="MLSpace::OpenDoorTrigger"></OBJECT>
@@ -283,6 +290,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#a9d859749be0d082364b4644d4f1cd136"><param name="Name" value="MLSpace::Trigger"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ragdoll_manager_1_1_body_part_info.html#a9207864745a7c69d253e6a18289d880b"><param name="Name" value="constraintJoint"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#a5049d60d4982d936f65fcc80bd3a4e07"><param name="Name" value="copy"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_mine_trigger.html#a9cb5d0d5754896e698d2a55e7f63f9ff"><param name="Name" value="countDownLimit"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_mine_trigger.html#a2cee5140084c84d3b8ffdde1a5491636"><param name="Name" value="countDownStarted"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_mine_trigger.html#ac1b50d53a99869185b6979ce9736418d"><param name="Name" value="countDownTimer"></OBJECT>
@@ -312,7 +320,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a1949816ad9e9f91cf3e7d7e38c3d7431"><param name="Name" value="currentGroundCollider"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#ae53a9aa2752687a5599418150eab44da"><param name="Name" value="CurrentLedge"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_ragdoll_creator_wizard.html#a0256ac7c5d10633e318404d2000783c5"><param name="Name" value="currentObject"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ab5a86cd9f1a845d2e497c1acdf4ac58a"><param name="Name" value="currentRelLedgePosition"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_car_controller.html#aee333d9367978bd5629160a5d0a02edd"><param name="Name" value="CurrentSpeed"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_car_controller.html#aabf4a2f7b28696db1374a70b0fc3caef"><param name="Name" value="CurrentSteerAngle"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_base_camera_holder.html#a6f5317a670a8ef28b25618951a3fbb67"><param name="Name" value="currentTarget"></OBJECT>
@@ -320,9 +327,15 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_base_camera_holder.html#a6f5317a670a8ef28b25618951a3fbb67"><param name="Name" value="MLSpace::BaseCameraHolder"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_orbit_camera_holder.html#a899e64abefae7bf0e8b1f6aad5b3c1b2"><param name="Name" value="MLSpace::OrbitCameraHolder"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#afeb79910fe9be6e9bc00a8b4c8fbc394"><param name="Name" value="currentWaponIndex"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#aa50760f8ee676342d77671baa50d6e8b"><param name="Name" value="currentWeapon"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_orbit_camera_holder.html#a51036e8f2d080db7652b4178a2077dcc"><param name="Name" value="currentZ"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ragdoll_manager_1_1_body_part_info.html#a7b4adabf05e9127b24fe9818a4fb29ea"><param name="Name" value="customVelocity"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_orbit_aim_camera.html#a30405008979def0561cbf8c5e01b36b5"><param name="Name" value="DBGUI"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_orbit_aim_camera.html#a30405008979def0561cbf8c5e01b36b5"><param name="Name" value="MLSpace::OrbitAimCamera"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a36d73780fdb48e8418ef8a2b01957622"><param name="Name" value="MLSpace::TPCharacter"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_decal_manager.html#ac0ab8e043799db0e7aa5d8a079120c26"><param name="Name" value="decalObjPrefab"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_decal_manager.html#a024c1985c0ce0d95d1f1293972f3a8dd"><param name="Name" value="defaultDropClips"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_decal_manager.html#aae316a8c6aedd3a8cd19f372e0fc5738"><param name="Name" value="defaultTextures"></OBJECT>
@@ -387,6 +400,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#ac82969ea9d9d0533bbd2ac862ce1320b"><param name="Name" value="dropCurrentItem"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_material_bullet_impact_info.html#af7a96d3f172384c5328094fb66761e7a"><param name="Name" value="dropSounds"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a49ae19955f93cd514eac6ad40d119e0d"><param name="Name" value="dynamicOrientation"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#aa418bc60e185a09c511983359470ad18"><param name="Name" value="edgeDistances"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_generic_trigger.html#abcc477e356127e1699a91f72b8198792"><param name="Name" value="effectorTypeLerp"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_generic_trigger.html#a35a007c40049bbb3f643d8844657d7a0"><param name="Name" value="effectorTypeMT"></OBJECT>
@@ -451,9 +465,9 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_item_trigger.html#a94a020bb3dc30c0918402061ca584225"><param name="Name" value="MLSpace::ItemTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump2_ledge_trigger.html#a811b288685b2edb2d58c0b1c75c50783"><param name="Name" value="MLSpace::Jump2LedgeTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_down_trigger.html#ae4140d8b3efe20ca837aa3e7fdc3ccfc"><param name="Name" value="MLSpace::JumpDownTrigger"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_forward_trigger.html#a17fc00aacd66159922de4909bf6cadd4"><param name="Name" value="MLSpace::JumpForwardTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#a5c43c969e4ba9b9965b128c67024fe71"><param name="Name" value="MLSpace::JumpOverTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ladder_trigger.html#abbf93175c3ee8488c5ffb48888974e1d"><param name="Name" value="MLSpace::LadderTrigger"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#a41204d227cffbd3082e52ffe67485fd2"><param name="Name" value="MLSpace::Leap"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_trigger.html#a575a46b14047cdad8f41cf91ff171744"><param name="Name" value="MLSpace::LedgeTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_open_door_trigger.html#af717855daf9a726c1607884a789189bd"><param name="Name" value="MLSpace::OpenDoorTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_push_pull_trigger.html#a7e0bccadbb47fd1b77688c765bee5f7b"><param name="Name" value="MLSpace::PushPullTrigger"></OBJECT>
@@ -497,10 +511,8 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a4ca8fad9a521dcb298d7e12530294c11"><param name="Name" value="firingInProgress"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction.html#aa5bccf017c35e6f05adc6407acb16ae4"><param name="Name" value="FixedUpdate"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction.html#aa5bccf017c35e6f05adc6407acb16ae4"><param name="Name" value="MLSpace::Destruction"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a6a845c03461ebee283fe51cb33d28531"><param name="Name" value="MLSpace::TriggerManagement"></OBJECT>
-  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction_part.html#aa4a9c2eb2b1f4683cdbbeb12b7ed4ac8"><param name="Name" value="fixedUpdate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a6a845c03461ebee283fe51cb33d28531"><param name="Name" value="FixedUpdate"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_predefines.html#a5f5197ecbb2969487f3909d906bf2b17"><param name="Name" value="fleshPhysicsMaterial"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_ragdoll_creator.html#ac967dea8f817e2a93c5813c40c6ad440"><param name="Name" value="flipForward"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_debug_u_i.html#a377de1c9a11c6d9d739b557454696f7b"><param name="Name" value="floatSpeed"></OBJECT>
@@ -526,9 +538,9 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_item_trigger.html#a6084619faf23b5af82b13c9b5a6d3376"><param name="Name" value="MLSpace::ItemTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump2_ledge_trigger.html#a1639eeb1843ecb7c538c8c0cf10f89c6"><param name="Name" value="MLSpace::Jump2LedgeTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_down_trigger.html#ab138dab97b3c7b4c69a7d9365a08932e"><param name="Name" value="MLSpace::JumpDownTrigger"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_forward_trigger.html#a27934dd332e01de4d90475e5e8a6c4e5"><param name="Name" value="MLSpace::JumpForwardTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#a5b48995938e5bc3c52e7b1d8e268107d"><param name="Name" value="MLSpace::JumpOverTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ladder_trigger.html#a2f75ba6de5c4c943679c4cf258344781"><param name="Name" value="MLSpace::LadderTrigger"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#af5328c6ac6c0e619b274ab691f3cf63c"><param name="Name" value="MLSpace::Leap"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_trigger.html#a90725ef1444e0ead76cb14792ef85c29"><param name="Name" value="MLSpace::LedgeTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_open_door_trigger.html#a3b41b89471143b4ef81cf75b3897b58f"><param name="Name" value="MLSpace::OpenDoorTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_push_pull_trigger.html#a674db209f3b571790f5136c04ea518cb"><param name="Name" value="MLSpace::PushPullTrigger"></OBJECT>
@@ -552,11 +564,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a00d16db20057a8879ea22a5fa481be63"><param name="Name" value="groundCheckDistance"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#af0d5b1362a00d33f1d6bb190c749cd1f"><param name="Name" value="groundNormal"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ae95cb47f9684f7deb0376ab82c8b7e27"><param name="Name" value="handIKMode"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#adf9e8ec9495822f379523de362e476be"><param name="Name" value="hangCheckDistance"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#adf9e8ec9495822f379523de362e476be"><param name="Name" value="MLSpace::IKHelper"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a768d58d06daa1a0738253aea380729fc"><param name="Name" value="MLSpace::LedgeManager"></OBJECT>
-  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a768d58d06daa1a0738253aea380729fc"><param name="Name" value="hangCheckDistance"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#ab3b4b183623aa5f857bb49f66faa6f90"><param name="Name" value="hangingWalledCapsuleScale"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a2ad03060dc1282757b01161fdaf10d05"><param name="Name" value="hasWeapon"></OBJECT>
   <UL>
@@ -575,7 +583,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ragdoll_manager.html#af2be58912ae9042c7563c0d1e68267c9"><param name="Name" value="hitTimeInterval"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a7940e22c0e0219ec2468c0fa12415b0e"><param name="Name" value="holdUse"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a9cb986385b16a00969b033c1c9d53cc0"><param name="Name" value="horiz"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#aa53bd11d30ba370b77d2f66cc9553c12"><param name="Name" value="horizontalInput"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_legs_i_k.html#a57f113b94effbce4de6816f47331182c"><param name="Name" value="ikDistanceOffset"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a2f5962f310c5d01fa2ec9854da23c5f5"><param name="Name" value="ikhelper"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_push_pull_trigger.html#a787265ba74447c345ed0bc86f458a4ad"><param name="Name" value="IKLine"></OBJECT>
@@ -602,6 +609,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_debug_u_i.html#a08620bdfd787045f6386392b7e40e0aa"><param name="Name" value="MLSpace::DebugUI"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction.html#a3dcc4d2c27fb57c51af16ddbac7ee603"><param name="Name" value="MLSpace::Destruction"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction_part.html#a036e3c1311f2e01673200f6156553a87"><param name="Name" value="MLSpace::DestructionPart"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_enter_ledge_down.html#ae2ea338f83202e902ea7f5a1175c8d50"><param name="Name" value="MLSpace::EnterLedgeDown"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_explosion_manager.html#a188dfe878b7cacaf00aea2142f0837ab"><param name="Name" value="MLSpace::ExplosionManager"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_footsteps_audio.html#a7150cd32e456eb7e6e3e3bda1415fd2e"><param name="Name" value="MLSpace::FootstepsAudio"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_footsteps_audio_user.html#ad927303a616c0b2b40fad56a7cbf5623"><param name="Name" value="MLSpace::FootstepsAudioUser"></OBJECT>
@@ -645,7 +653,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a9d3899942e14763cfd8fbf5ad4355427"><param name="Name" value="input"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_trigger_creator.html#adb0b51198460c6376290edf690490dcc"><param name="Name" value="inputType"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_generic_trigger.html#a29ebd1f24741c4f65b5a2c4b483fdcc4"><param name="Name" value="inputTypeToStartTrigger"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#a399be59d3b91dc67afd28eb778378535"><param name="Name" value="inputTypeToStartTrigger"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_single_action_rifle.html#a40e0bbaaceff8d9fcd2123c0d4960dea"><param name="Name" value="insertBulletClips"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#ab2b3c7bf18f116d1957ca1844177b4b7"><param name="Name" value="insertMagClips"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a25c75ffbe35db0e991c9a8b63471b244"><param name="Name" value="interactCondition"></OBJECT>
@@ -662,9 +670,11 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_car_control_user.html#afc104d77741a4f9397ef4c8d9425b880"><param name="Name" value="isObstructedRight"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a9ffa3470a0b89eb0d4124dcf6e443e47"><param name="Name" value="isOnGround"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_hash_i_ds.html#a38ec8da81db57f9b3efacb0dd42029bc"><param name="Name" value="isPointing"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#aeb78fe9ed9e93b9b8c4f9b1823b44a16"><param name="Name" value="isReversedOnLedge"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#aa2ba9ff5e9c7ed38bf4e388c62a52a1d"><param name="Name" value="isSkinned"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_platform_script.html#ade6363f1cf14bd15c8b5d8735918f180"><param name="Name" value="isStopped"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction_part.html#a4d78ce48075330b92ba345ffb48b60ae"><param name="Name" value="isSupport"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a79ef765e15a89aad28151fa4c6a3ae69"><param name="Name" value="IsWalled"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a164b518e66c3066d1c8c3ffce15338f9"><param name="Name" value="jump2LedgeActive"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ab8d33140fd78d1831a0ea99ec38e59ed"><param name="Name" value="jumpAllowed"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_down_trigger.html#a8bbc13213a3d6ffe98e89f40d0168801"><param name="Name" value="jumpDistance"></OBJECT>
@@ -694,8 +704,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a8d56569ef10a7a3970d4ae380c601384"><param name="Name" value="ledgeManager"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a4ceb5d990215101a35142e501ea6958c"><param name="Name" value="ledgeOffsetHang"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a696d92d04f429c2f278760a4d6c04985"><param name="Name" value="ledgeOffsetWalled"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a4817190152e6b8a2eea66b4c678edad1"><param name="Name" value="ledgeRelativePosition"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a143c3a9a2094fe7e24f66a0a421d400f"><param name="Name" value="ledgeRelativePositionHang"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ac1bf7faa37a40be4b31e66348652788f"><param name="Name" value="ledgeSpeedHanging"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a14084f2f7ec2ea9d59a9644a56ad68dc"><param name="Name" value="ledgeSpeedWalled"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#a8a3b83f3a4c732727069fef0fb273d05"><param name="Name" value="ledgeTransform"></OBJECT>
@@ -723,7 +731,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#aa5c0ec9f3b4daf44b194f6cd9353b69f"><param name="Name" value="leftHandRotationX"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#ae93050793a3f2f89c5f709ffca7bea2c"><param name="Name" value="leftHandRotationY"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#a1fcc02b1f967dd58f8858515015e9863"><param name="Name" value="leftHandRotationZ"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a3b2f4b41536ceba1e3e6a32ee0512bfb"><param name="Name" value="leftHandTarget"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_ragdoll_creator.html#a319e38109112483bf833bd66ddda4bad"><param name="Name" value="leftHips"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_ragdoll_creator.html#aff9e5d7a72d47bd80b09c6e07373c6e4"><param name="Name" value="leftKnee"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#a6246d2771aac18e276929c421d7d18c8"><param name="Name" value="leftLedge"></OBJECT>
@@ -733,7 +740,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a3e819080494a63d67131e4cabf8b7b79"><param name="Name" value="legsIK"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_legs_i_k.html#a8ba9f669ac9177a70c1d06f05673b1a4"><param name="Name" value="legsIKHeight"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_legs_i_k.html#a6f39ec92e1afb2b0cb14378af09f70e9"><param name="Name" value="LegsIKLayers"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_down_trigger.html#a33f1cbb971ef2ffe2890b1db2de9d1fa"><param name="Name" value="lerpToPosition"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a3e903e98d127bfabde2eb54acfdbfe8c"><param name="Name" value="lerpToTransform"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a2a87993f3e7f33206a219df2d9ab839a"><param name="Name" value="LFootIKEnabled"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a43781a7a4e411d20297772e01d537965"><param name="Name" value="LFPosition"></OBJECT>
@@ -761,9 +767,12 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ragdoll_manager.html#acc3a4eecbab1910bee52bfa45930039a"><param name="Name" value="m_ActiveLayer"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_orbit_camera_holder.html#a6c44c3b8615901064e65048e97fa5efb"><param name="Name" value="m_AdditiveRot"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#ad0bfa8eeb42c3451df1e9669d97829ba"><param name="Name" value="m_Aim"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#abae28a6ebaa8f2aca06722dc32c77dc1"><param name="Name" value="m_AimAllowed"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#ad8feac3ed9cab10498064e5132925c6a"><param name="Name" value="m_AimAllowedTime"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a3f4fb0b712d8b31c1b777930641805b8"><param name="Name" value="m_AimAllowedTimer"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a1844cc07e433960fc59c2b7863602f7d"><param name="Name" value="m_AimBone"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a89b7a48c5a6977866cc86263e99a12d0"><param name="Name" value="m_AimSetup"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#abb83a879acdade9d9fc5fcbe89dac052"><param name="Name" value="m_AimTime"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#af3eee8829aeeea19224b04c15c5dede9"><param name="Name" value="m_AimTimer"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#aab372f3b75a1a116dd8696f10adc62f6"><param name="Name" value="m_AirGroundCheck"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#a4efb74c494b05990536ce8151c376384"><param name="Name" value="m_AmmoOrigOffsetPosition"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#a7976733565544e278abc352c9fd0d971"><param name="Name" value="m_AmmoOrigOffsetRotation"></OBJECT>
@@ -785,6 +794,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_audio_manager.html#a2461f9a9f7cc128a19e92c6e9818452d"><param name="Name" value="MLSpace::AudioManager"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a0a2f985cd55bcd3aff11cd7e27bbb779"><param name="Name" value="MLSpace::TPCharacter"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a3c0d9c6c7c01dcb1d09e5413dee559f0"><param name="Name" value="m_AudioListener"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#a7ee33f6372731d3b3e7247bd09ec3c35"><param name="Name" value="m_AudioSource"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ragdoll_manager.html#af3e215feff14bc17ca905f76bc039336"><param name="Name" value="m_BodyParts"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_car_controller.html#a303583dca9fad028d1c57ed903a72155"><param name="Name" value="m_BrakeTorque"></OBJECT>
@@ -823,11 +833,9 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a937c62ed1c11012693d3837f79d8ab59"><param name="Name" value="m_CurrentHeadLookPos"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a63edb3b72f885f77113b33b11f440588"><param name="Name" value="m_CurrentHeadPos"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ragdoll_manager.html#a695701b948392eb5784407904893fa2c"><param name="Name" value="m_CurrentHitTime"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a692fe68d1a91c19b3961d9caec2fb711"><param name="Name" value="m_CurrentHorizonztalValue"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ae049dbce935da2966b832ae582d0b520"><param name="Name" value="m_CurrentLedge"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_orbit_camera_holder.html#aa955d45725cfc2319675f17c5909cd90"><param name="Name" value="m_currentTarget"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_orbit_camera_holder.html#a69ef8738209d993ebd17f99892b63779"><param name="Name" value="m_CurrentTargetPos"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a01ea514be0f2299a82c44233b57171f9"><param name="Name" value="m_CurrentVerticalValue"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#adc02b3d73f3f6e0747035bd18d736142"><param name="Name" value="m_CurrentWeapon"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#adc02b3d73f3f6e0747035bd18d736142"><param name="Name" value="MLSpace::Player"></OBJECT>
@@ -926,6 +934,10 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a40908b589b907015b67299e013bad67a"><param name="Name" value="m_Jumped"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a9a19f306a8728739adc51c852da0d6e8"><param name="Name" value="m_LeavingTakingWeapon"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ac2e04ef59a1d92d7b21bbcddf6314b69"><param name="Name" value="m_LedgeManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ac2e04ef59a1d92d7b21bbcddf6314b69"><param name="Name" value="MLSpace::TPCharacter"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#aa56085d9741ec2bfd07c1c8f7b440765"><param name="Name" value="MLSpace::TriggerManagement"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#aa814ee4c46b996118b351f4546762c98"><param name="Name" value="m_LedgeMoving"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a52e52796aa5cddff12feaefac6429987"><param name="Name" value="m_LeftHandIK"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#ae4c89e49a1f27ab38df94a9005138a9e"><param name="Name" value="m_LegsIKScript"></OBJECT>
@@ -944,7 +956,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a9493c65f5b7eb77cf5029de1686002c0"><param name="Name" value="m_LHandAxisX"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#ac32b0dad5aaa758de21168f3aa32cce2"><param name="Name" value="m_LHandAxisY"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#aebcd9840655bb57b33368fca9b9747cc"><param name="Name" value="m_LHandAxisZ"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#afcedf1d00ff3ef28051cea986e76ac98"><param name="Name" value="m_LineMoveDirection"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a4b4311c46ab3d1562c8fa305ab87af26"><param name="Name" value="m_LookAtAim"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a10e8ef2aa05cb086148dd5fb9617f128"><param name="Name" value="m_LookToTarget"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#aa0f1fcf7a82c3b1582004fb34b3f5a05"><param name="Name" value="m_LookTowardsCamera"></OBJECT>
@@ -980,6 +991,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a24999adc73cea386390e9d081b66e0fb"><param name="Name" value="MLSpace::TriggerManagement"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#ad51e3152e12f9d4daef430e86a94d7bc"><param name="Name" value="m_PlayerAnimator"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#ae4b3423854bfdb0421f889c4b9209396"><param name="Name" value="m_PlayerMisc"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#a872cbcd815bfed75dedcc3dbe25585cb"><param name="Name" value="m_PlayerOwner"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a7ddfb6d8cc0bad4b5fdb11ab1e3aa4a2"><param name="Name" value="m_PositionToSet"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#aadc25d9bd1b4675692072014170a1046"><param name="Name" value="m_PrecSecUse"></OBJECT>
@@ -1048,9 +1060,11 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#aabd40a5ab49c3cf230ed4ee3269b3735"><param name="Name" value="m_WaitForNextTurn"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a0d8d94916e6516cc65dab27085d22d44"><param name="Name" value="m_WaitTurnCount"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a564ee642ef8c01cc2cfafa0be8d0e8bc"><param name="Name" value="m_WaitTurnCounter"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a1ce27ace570972653799a2bae7c370eb"><param name="Name" value="m_WeaponAction"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#a446fbba31ce5cb6933247a622c7aeba0"><param name="Name" value="m_WeaponAnimator"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#ae8c5faefbdcf05b507126d3e00ab3b20"><param name="Name" value="m_WeaponCameras"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a281ece862251d5180e5c8d7c2d1d75fe"><param name="Name" value="m_WeaponCamIndex"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#aedad7a604b981b9c63f1b451ed9b3b4a"><param name="Name" value="m_WeaponList"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#afe39731fefed8756e61d30d22f327004"><param name="Name" value="m_WeaponRaised"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_car_controller.html#a80ce91a0dd46253d7f030ec229e9fd3f"><param name="Name" value="m_WheelColliders"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_car_controller.html#a8826bbe4c9bc894aa32a4a076349518d"><param name="Name" value="m_WheelEffects"></OBJECT>
@@ -1225,12 +1239,13 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html"><param name="Name" value="MLSpace::ClimbOnTrigger"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#ac60f8e05c50ac498e4a57ecdc275ad1e"><param name="Name" value="catchTarget"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#a5738d2c8e664388cff9cccea522410b5"><param name="Name" value="closestPoint"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#a2cc5fd4fd0b26b0e3407e3664c0ac48d"><param name="Name" value="catchTargetRun"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#a08a4e78c075f51e4b4ded580f307690b"><param name="Name" value="catchTargetWalk"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#a40137c03bbd2cbe8e4ab902fa449463d"><param name="Name" value="condition"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#a8dfe4fe55dc6e978f1d720c11d6df7e6"><param name="Name" value="end"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#a41645c19655f3059027774c1945f07a7"><param name="Name" value="get_info_text"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#a288abb9867b587fbfdd83bd9cc2ee519"><param name="Name" value="initialize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#a40c5cbed4a21cef5d2bb2ffd8b57e0d8"><param name="Name" value="moveCatchPosition"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#ac6638834f33460b720b4c61a4979be01"><param name="Name" value="onMatchTargetStart"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#af4da0233fecc82b0c0a587623d9fd98c"><param name="Name" value="shortJumpLimit"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#a566185b6b0c829fd06fe07fe242fb691"><param name="Name" value="start"></OBJECT>
@@ -1298,6 +1313,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction.html#a80737d8a2871e8808b10017fa36d3991"><param name="Name" value="onHit"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction.html#aef2e17a2a50182370c98431b55d5e056"><param name="Name" value="singleMeshObject"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction.html#a93569c9c56c9d6931d78ed569efea192"><param name="Name" value="uncheckParts"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction.html#af6480f2b51afad0170a5497740ca1604"><param name="Name" value="Update"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction_part.html"><param name="Name" value="MLSpace::DestructionPart"></OBJECT>
   <UL>
@@ -1307,6 +1323,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction_part.html#a67d8c92c94b28885314374fef412cdd3"><param name="Name" value="clear"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction_part.html#a5f86d5e8cbd2d6a47d539b0059223f5c"><param name="Name" value="destruction"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction_part.html#a4262c0470a25bb951da110080f3c2e3f"><param name="Name" value="explosion"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction_part.html#aa4a9c2eb2b1f4683cdbbeb12b7ed4ac8"><param name="Name" value="fixedUpdate"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction_part.html#a036e3c1311f2e01673200f6156553a87"><param name="Name" value="initialize"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction_part.html#a15171192638e64beaf4924e07c2eb2d6"><param name="Name" value="isChecked"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction_part.html#a4d78ce48075330b92ba345ffb48b60ae"><param name="Name" value="isSupport"></OBJECT>
@@ -1317,12 +1334,13 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction_part.html#ae9da9284761370ac75ce567552063e2f"><param name="Name" value="onHit"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction_part.html#aa4a862c989e6233e9203aa7e7cef0b7f"><param name="Name" value="process"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction_part.html#af3f220dd35ce1120855415e3ca665669"><param name="Name" value="removeFromNeighs"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction_part.html#a73bda5173453449de9b610cc3123800e"><param name="Name" value="update"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_door.html"><param name="Name" value="MLSpace::Door"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_door.html#aebb854cc951c679cea52a319bec196c0"><param name="Name" value="closeDoor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_door.html#ab22fa469fe6c86973decae956e491f59"><param name="Name" value="closeDoorAudioClip"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_door.html#abb2488097dbdb591bc4a303f3d82192a"><param name="Name" value="open"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_door.html#aece8c441a9b577d42c32076dcd3870fb"><param name="Name" value="openDoor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_door.html#a7c805cb6452d281b36994017f8442139"><param name="Name" value="openDoorAudioClip"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_empty_shell_ejector.html"><param name="Name" value="MLSpace::EmptyShellEjector"></OBJECT>
   <UL>
@@ -1334,10 +1352,12 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_empty_shell_particle_collision.html"><param name="Name" value="MLSpace::EmptyShellParticleCollision"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_enter_ledge_down.html"><param name="Name" value="MLSpace::EnterLedgeDown"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_enter_ledge_down.html#a344f005eaf30cd3d4342db67a0aa2e17"><param name="Name" value="closestPoint"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_enter_ledge_down.html#ad7e7b6edac6fe0f58c6d54957f10629a"><param name="Name" value="catchTarget"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_enter_ledge_down.html#a33471620b78c8ab1f6f3bd38a48fe91d"><param name="Name" value="condition"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_enter_ledge_down.html#a14b6ee48973ddf612a227ab4a1f95445"><param name="Name" value="end"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_enter_ledge_down.html#a6b814d749c11ca0dd16980081dd2c9ee"><param name="Name" value="get_info_text"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_enter_ledge_down.html#ae2ea338f83202e902ea7f5a1175c8d50"><param name="Name" value="initialize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_enter_ledge_down.html#a2893ef136039e231fd1419b2b8a3df1b"><param name="Name" value="moveCatchPosition"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_enter_ledge_down.html#a84688c21916c793214149e0cbcb1d13b"><param name="Name" value="onMatchTargetStart"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_enter_ledge_down.html#a0f9a2bef48aefa7353c01a42d8c1ee34"><param name="Name" value="start"></OBJECT>
   </UL>
@@ -1401,7 +1421,6 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_generic_trigger.html#a917bdceef625cdd392774b8fd124e857"><param name="Name" value="enableLerp2Position"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_generic_trigger.html#a1a1cd9495a78d8becce3e48d95d1225c"><param name="Name" value="enableSlerp2Rotation"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_generic_trigger.html#a76da7d22815c55a4158351159e56d994"><param name="Name" value="end"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_generic_trigger.html#a29ebd1f24741c4f65b5a2c4b483fdcc4"><param name="Name" value="inputTypeToStartTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_generic_trigger.html#af26519e006639165d935154893c4a95b"><param name="Name" value="keepPlayerVertical"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_generic_trigger.html#acbe161948eb39d37f0ea62bcf94dd3eb"><param name="Name" value="matchTarget"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_generic_trigger.html#a7b92dcc467971101f3bf90a7d7cc5e83"><param name="Name" value="moveMethod"></OBJECT>
@@ -1445,15 +1464,11 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ae9b0397d6160a68854044e3602f2a6aa"><param name="Name" value="armReach"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ae75aae52b0714b599460521688292cc6"><param name="Name" value="clear"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ab5a86cd9f1a845d2e497c1acdf4ac58a"><param name="Name" value="currentRelLedgePosition"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a20cdc7b2788d6010d1a2397eec73049a"><param name="Name" value="disableAll"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a84358dc84d43e88a2889d1bee4f60856"><param name="Name" value="feetIKMode"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#acc488275be42eb68babc6cc41b056ab2"><param name="Name" value="footOffset"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ae95cb47f9684f7deb0376ab82c8b7e27"><param name="Name" value="handIKMode"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#adf9e8ec9495822f379523de362e476be"><param name="Name" value="hangCheckDistance"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a2c1c0cc3e80930c8aed76ca9f42f5682"><param name="Name" value="initialize"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a4817190152e6b8a2eea66b4c678edad1"><param name="Name" value="ledgeRelativePosition"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a143c3a9a2094fe7e24f66a0a421d400f"><param name="Name" value="ledgeRelativePositionHang"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ae7d317bbc88aa335d613d577599ff950"><param name="Name" value="leftFootLineTransform"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#aa31e3e9029f3aeef83da884532f04835"><param name="Name" value="LeftFootPlane"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a8444dca338c712aca3ce0830fbc60fd4"><param name="Name" value="leftHandLineTransform"></OBJECT>
@@ -1491,7 +1506,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump2_ledge_trigger.html"><param name="Name" value="MLSpace::Jump2LedgeTrigger"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump2_ledge_trigger.html#a7db83a5883bc5f2cb1988fbad77bbbce"><param name="Name" value="clear"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump2_ledge_trigger.html#aeccfb097587de2a5a63a49e7e0ec3868"><param name="Name" value="closestPoint"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump2_ledge_trigger.html#a9cc658f06a64d20bca4d9d6ab29af6d4"><param name="Name" value="condition"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump2_ledge_trigger.html#a811b288685b2edb2d58c0b1c75c50783"><param name="Name" value="end"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump2_ledge_trigger.html#a1639eeb1843ecb7c538c8c0cf10f89c6"><param name="Name" value="get_info_text"></OBJECT>
@@ -1508,28 +1522,18 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_down_trigger.html#ab138dab97b3c7b4c69a7d9365a08932e"><param name="Name" value="get_info_text"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_down_trigger.html#a5ee028afa331f298b8552ea4c3859216"><param name="Name" value="initialize"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_down_trigger.html#a8bbc13213a3d6ffe98e89f40d0168801"><param name="Name" value="jumpDistance"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_down_trigger.html#a33f1cbb971ef2ffe2890b1db2de9d1fa"><param name="Name" value="lerpToPosition"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_down_trigger.html#a315703df158c7921865d11d7efc4fef1"><param name="Name" value="onMatchTargetStart"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_down_trigger.html#a26f3e891f1e024603471fb442a8fbe0c"><param name="Name" value="shortJumpLimit"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_down_trigger.html#abbf2b52f1c51a0757d94400825a26dcc"><param name="Name" value="start"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_forward_trigger.html"><param name="Name" value="MLSpace::JumpForwardTrigger"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_forward_trigger.html#a1a41411c384f9b5bf8e8b0e5151b4a17"><param name="Name" value="catchTargetRun"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_forward_trigger.html#ac185cc4d5a97e2b6ba2213572a28c4af"><param name="Name" value="catchTargetWalk"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_forward_trigger.html#a91f3e82657aad8111bdabac2ad0406a8"><param name="Name" value="condition"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_forward_trigger.html#a17fc00aacd66159922de4909bf6cadd4"><param name="Name" value="end"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_forward_trigger.html#a27934dd332e01de4d90475e5e8a6c4e5"><param name="Name" value="get_info_text"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_forward_trigger.html#a57e4a138b85cf59fd206ab4b37c2ddc9"><param name="Name" value="onMatchTargetStart"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_forward_trigger.html#aa3bbde097c34c2669fbd7283185803aa"><param name="Name" value="start"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html"><param name="Name" value="MLSpace::JumpOverTrigger"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#ae092687d282f79b7e49a13297f4ec8b0"><param name="Name" value="catchTarget"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#a7a85cb19695ec79dd34e06ef2079f063"><param name="Name" value="closestPoint"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#a98cfb1265e3e71a028984a9b6c0a8712"><param name="Name" value="catchTargetRun"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#a3cd20ea8f766c5ecf369cf9fef207e4c"><param name="Name" value="catchTargetWalk"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#a4796ce3c2aebaf0dff24d77bd14fb732"><param name="Name" value="condition"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#a5c43c969e4ba9b9965b128c67024fe71"><param name="Name" value="end"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#a5b48995938e5bc3c52e7b1d8e268107d"><param name="Name" value="get_info_text"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#a92d3a3a0c11b4166d836d6a218cc5c22"><param name="Name" value="moveCatchPosition"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#acaa4a20d370afd7c997dabf94a769c31"><param name="Name" value="onMatchTargetStart"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#a9a7c0df31aa343e398300a4430df6741"><param name="Name" value="start"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#abb044c93aa602049f291a5778a9f93bc"><param name="Name" value="turnToLedge"></OBJECT>
@@ -1550,9 +1554,23 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ladder_trigger.html#ab556ffe57ef5bce89448a2e16218ac4a"><param name="Name" value="RightHandHold"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ladder_trigger.html#a192c8382d5acd8ab9bf3519be410c26d"><param name="Name" value="start"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html"><param name="Name" value="MLSpace::Leap"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#ad35225ee7d597d6f8e916fb18b4f7156"><param name="Name" value="catchTargetRun"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#a8980b2a8d4c96f530f38bcad62417dc8"><param name="Name" value="catchTargetWalk"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#a415a358721a20e3f3fc57070c8caab72"><param name="Name" value="condition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#a41204d227cffbd3082e52ffe67485fd2"><param name="Name" value="end"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#af5328c6ac6c0e619b274ab691f3cf63c"><param name="Name" value="get_info_text"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#a69f85334d42f86ed46146badfd352411"><param name="Name" value="moveCatchPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#a32c8346f4e434954c5b3f6d65a98fe33"><param name="Name" value="onMatchTargetStart"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#a07ac71303a581d5cc79b5010e2733e9c"><param name="Name" value="start"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#a34715f5afaed0fea2f13fa8ac0594f92"><param name="Name" value="turnToLedge"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html"><param name="Name" value="MLSpace::Ledge"></OBJECT>
   <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#ad033f764aca5dd3e597af6b61f048f5e"><param name="Name" value="allowReverse"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#ae904cddfd0cca94ed79e4c2785fd4fea"><param name="Name" value="clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#a5049d60d4982d936f65fcc80bd3a4e07"><param name="Name" value="copy"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#a112402a65fe6aa27499ec92f133472aa"><param name="Name" value="downLedge"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#a16fda14edf112a2dc4ac71b7b11977ef"><param name="Name" value="initialize"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#af1e3125c9d943f72a9c3b4173cd5952e"><param name="Name" value="isHorizontal"></OBJECT>
@@ -1567,12 +1585,9 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#abc73e2e5c3644ed25e3d80c5079688cf"><param name="Name" value="plane"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#ad3839646509708d6c840cb79b7d079a0"><param name="Name" value="pullUp"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#a8ded847b68fdb6c0f9ca57df6dd386cb"><param name="Name" value="pullUpAnimationState"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#acb6b27eb53480e7152c64a77e4444fab"><param name="Name" value="reversed"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#a9494fa6dd880616410f1b048d8f4d876"><param name="Name" value="reverseOnLedge"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#a583cd7c7efca4fee0ee2f4155ae29506"><param name="Name" value="rightLedge"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#ad6c2fe689d9356f5210b45c5327be79d"><param name="Name" value="rightPoint"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#ae14eb142d05bbe4b488b9194d656dc61"><param name="Name" value="switchTargetDirection"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#afc215f12b10b92b5defa31f9014b2449"><param name="Name" value="updatePoints"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#ace1c7a10e3c87533273c204cdc29f295"><param name="Name" value="updatePoints"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#a09bbd40d0250f95ceb2e7efcf0186fe1"><param name="Name" value="upLedge"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#a002fcdc75857b010a5ccd304f7b1cb70"><param name="Name" value="useVerticalLedgeRotation"></OBJECT>
   </UL>
@@ -1583,10 +1598,13 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a891b232f57d0d9aeb9bfa9e0b46fc48c"><param name="Name" value="clear"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a49c438003330fa2d1ab383e2c617ba2f"><param name="Name" value="condition"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#ae53a9aa2752687a5599418150eab44da"><param name="Name" value="CurrentLedge"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a49ae19955f93cd514eac6ad40d119e0d"><param name="Name" value="dynamicOrientation"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a1fee589d548c48e4791f0376e6e39a7f"><param name="Name" value="getClosestLedge"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a768d58d06daa1a0738253aea380729fc"><param name="Name" value="hangCheckDistance"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#ab3b4b183623aa5f857bb49f66faa6f90"><param name="Name" value="hangingWalledCapsuleScale"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#aef2aaa3102603d7bda1afc7b17ceae92"><param name="Name" value="initialize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#aeb78fe9ed9e93b9b8c4f9b1823b44a16"><param name="Name" value="isReversedOnLedge"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a79ef765e15a89aad28151fa4c6a3ae69"><param name="Name" value="IsWalled"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a164b518e66c3066d1c8c3ffce15338f9"><param name="Name" value="jump2LedgeActive"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a9107b4bd2d847a591284f62a9445008b"><param name="Name" value="jumpDistanceLimit"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a96c45d4f54795a50ba16a3ad0c8e4a8d"><param name="Name" value="leavingLedge"></OBJECT>
@@ -1781,6 +1799,10 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_trigger_creator.html#ad9d8d6ceb326055a4c7f000ae821cd6f"><param name="Name" value="triggerObject"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_trigger_creator.html#a025a64c443120984ee5d0c84b8f38311"><param name="Name" value="TriggerStateName"></OBJECT>
   </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_trigger_editor.html"><param name="Name" value="MLSpace::MLEditor::TriggerEditor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_trigger_editor.html#a2ff3923b078a553d0664644df1dbd878"><param name="Name" value="OnInspectorGUI"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_trigger_manager_editor.html"><param name="Name" value="MLSpace::MLEditor::TriggerManagerEditor"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_trigger_manager_editor.html#a1d0db5a87f3fe7b8330d23670a6cf644"><param name="Name" value="OnInspectorGUI"></OBJECT>
@@ -1825,6 +1847,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_orbit_aim_camera.html"><param name="Name" value="MLSpace::OrbitAimCamera"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_orbit_aim_camera.html#af7ecd78ad5e9454f302b4c04e1f406d7"><param name="Name" value="clear"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_orbit_aim_camera.html#a30405008979def0561cbf8c5e01b36b5"><param name="Name" value="DBGUI"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_orbit_aim_camera.html#a6e35b5cf91c7509be063f615639dbff8"><param name="Name" value="OnMaxZPlus"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_orbit_aim_camera.html#adc8d54aabb192a02dddaac03cbc7762d"><param name="Name" value="OnMinZMinus"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_orbit_aim_camera.html#a6b4b08c57efd067e5f2edbb28a92dfed"><param name="Name" value="setConstraints"></OBJECT>
@@ -1923,6 +1946,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a75144b7d1505f5b84611c9f09958591e"><param name="Name" value="crouchCameraTarget"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#ab641cc822b78547331736233906e5984"><param name="Name" value="currentActiveTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#af00c7c1f636129caa47bac26a8c4ef62"><param name="Name" value="currentCameraHolder"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#afeb79910fe9be6e9bc00a8b4c8fbc394"><param name="Name" value="currentWaponIndex"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#aa50760f8ee676342d77671baa50d6e8b"><param name="Name" value="currentWeapon"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a45d4378963450406376b7971ffa97eb3"><param name="Name" value="deleteWeaponCameras"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#acf52d88d492d4bec4bf670f6abd3c75d"><param name="Name" value="disableFire"></OBJECT>
@@ -1939,12 +1963,16 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#af34ce3cba79aa551dd2e8ccda4a1a447"><param name="Name" value="lookIkMode"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#add1bec2905452ad679d2af760e5af6a4"><param name="Name" value="lookTowardsCamera"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#ad0bfa8eeb42c3451df1e9669d97829ba"><param name="Name" value="m_Aim"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#abae28a6ebaa8f2aca06722dc32c77dc1"><param name="Name" value="m_AimAllowed"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#ad8feac3ed9cab10498064e5132925c6a"><param name="Name" value="m_AimAllowedTime"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a3f4fb0b712d8b31c1b777930641805b8"><param name="Name" value="m_AimAllowedTimer"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a1844cc07e433960fc59c2b7863602f7d"><param name="Name" value="m_AimBone"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a89b7a48c5a6977866cc86263e99a12d0"><param name="Name" value="m_AimSetup"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#abb83a879acdade9d9fc5fcbe89dac052"><param name="Name" value="m_AimTime"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#af3eee8829aeeea19224b04c15c5dede9"><param name="Name" value="m_AimTimer"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a95d03956ed47924263e099bf343178bd"><param name="Name" value="m_Animator"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#ad0593a74bd82f8881ce2cdce781f0f0d"><param name="Name" value="m_ASource"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#aafe73cca6255e54a36922ccbf6dbc785"><param name="Name" value="m_Attack"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a3c0d9c6c7c01dcb1d09e5413dee559f0"><param name="Name" value="m_AudioListener"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a3712282e43448ed7106c1a8a7113172a"><param name="Name" value="m_BulletHitEffect"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#ac3e36c63743996bfa656ef580f4b66d5"><param name="Name" value="m_CarControlUser"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a1ab54540c7491d0cbc43ac2a9dd1b649"><param name="Name" value="m_Character"></OBJECT>
@@ -1992,8 +2020,10 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a7b38d7059a542d2662bf3411d7f015e4"><param name="Name" value="m_StartLeftHandOrient"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a23bb623a1bc9c658644f06ebe2c05e70"><param name="Name" value="m_Switch2CameraLook"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a12ce0851e01dd6290c7573abe3087231"><param name="Name" value="m_Triggers"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a1ce27ace570972653799a2bae7c370eb"><param name="Name" value="m_WeaponAction"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#ae8c5faefbdcf05b507126d3e00ab3b20"><param name="Name" value="m_WeaponCameras"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a281ece862251d5180e5c8d7c2d1d75fe"><param name="Name" value="m_WeaponCamIndex"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#aedad7a604b981b9c63f1b451ed9b3b4a"><param name="Name" value="m_WeaponList"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a69b3b695e7d4f0d0741d9bf85ef2d413"><param name="Name" value="mainCam"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a04fe6f54105728094161baf9d58e513f"><param name="Name" value="mainCamera"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a5ef7f906885071998ca26d0dee576c99"><param name="Name" value="noLookIK"></OBJECT>
@@ -2234,11 +2264,12 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_run2_swing2_ledge.html"><param name="Name" value="MLSpace::Run2Swing2Ledge"></OBJECT>
   <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_run2_swing2_ledge.html#a085ace04d13b634dda05a75fe10296f0"><param name="Name" value="addedSwingVelocity"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_run2_swing2_ledge.html#abc8a1d253b767b759a053661422e3630"><param name="Name" value="catchTarget"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_run2_swing2_ledge.html#a9b73d1a05da57e8d18aa27615c5bc73d"><param name="Name" value="closestPoint"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_run2_swing2_ledge.html#a1db2e3968c3a8a898688f249b5cee785"><param name="Name" value="condition"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_run2_swing2_ledge.html#af3a2d3a4aaa263d454fa3db543a4f2e6"><param name="Name" value="end"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_run2_swing2_ledge.html#a642143c023f4df136ad3b6daaf5ca757"><param name="Name" value="get_info_text"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_run2_swing2_ledge.html#af2187693eb43e08205aeadf7a9c39bc6"><param name="Name" value="moveCatchPosition"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_run2_swing2_ledge.html#a5b0ea54b2887c7ca2e0cfeec538c313c"><param name="Name" value="onMatchTargetStart"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_run2_swing2_ledge.html#abee613aeeb45cc77ea1b35d900665968"><param name="Name" value="start"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_run2_swing2_ledge.html#a9d53586c46c78c45a133049a848c8c82"><param name="Name" value="turnToLedge"></OBJECT>
@@ -2315,6 +2346,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#af1bb78c8314a32dd20f4beb59d8bc24c"><param name="Name" value="coverTransform"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a7eeb5ff88f0a57604a159b0e08f5a739"><param name="Name" value="crouchCoverHeight"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a1949816ad9e9f91cf3e7d7e38c3d7431"><param name="Name" value="currentGroundCollider"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a36d73780fdb48e8418ef8a2b01957622"><param name="Name" value="DBGUI"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#abc96374f37dd3ee02ef1672a66e14efb"><param name="Name" value="disableCapsuleScale"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#adc67c3f03d73fe6e92c6564ab3481b7c"><param name="Name" value="disableGroundCheck"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#acfdbb9bc2bd7ff36ebf2f9511c27834d"><param name="Name" value="disableGroundPull"></OBJECT>
@@ -2340,7 +2372,6 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#af7bed9dfdec3448e43a0bd9d6361daef"><param name="Name" value="GROUND_PULL_FORCE"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a00d16db20057a8879ea22a5fa481be63"><param name="Name" value="groundCheckDistance"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#af0d5b1362a00d33f1d6bb190c749cd1f"><param name="Name" value="groundNormal"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#aa53bd11d30ba370b77d2f66cc9553c12"><param name="Name" value="horizontalInput"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ab5671046cd07518147be50dde71a8ac2"><param name="Name" value="initialize"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ad351104950c6c3576c7707bf36d119e4"><param name="Name" value="isCrouching"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a41028bf5e38ac816426756b96fa9df14"><param name="Name" value="isDiving"></OBJECT>
@@ -2369,9 +2400,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a2f4fd98555b9e7293a4e8e7a7ead047e"><param name="Name" value="m_CurrentGroundCollider"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a43e87513782d948b5e7c4cbaed083e90"><param name="Name" value="m_CurrentGroundLayer"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a937c62ed1c11012693d3837f79d8ab59"><param name="Name" value="m_CurrentHeadLookPos"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a692fe68d1a91c19b3961d9caec2fb711"><param name="Name" value="m_CurrentHorizonztalValue"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ae049dbce935da2966b832ae582d0b520"><param name="Name" value="m_CurrentLedge"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a01ea514be0f2299a82c44233b57171f9"><param name="Name" value="m_CurrentVerticalValue"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a2e830e7da93458b183b8d9357084db9b"><param name="Name" value="m_DampTime"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a2feca1632c07940a017c9e3fef843050"><param name="Name" value="m_Defines"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ac80e262f786fb94a3d9c6aa9fccfb33b"><param name="Name" value="m_DisableGroundCheck"></OBJECT>
@@ -2403,7 +2432,6 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a482cfab2487c106ca1c610151508b9d3"><param name="Name" value="m_LerpStartPosition"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ac8d88263fb961b670132719a70385021"><param name="Name" value="m_LerpStartRotation"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a32cd8b1dadefd564047c8ff40ceeadc2"><param name="Name" value="m_LerpToTransformFlag"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#afcedf1d00ff3ef28051cea986e76ac98"><param name="Name" value="m_LineMoveDirection"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a052aedc6ed8b6c4f29e90a04acf35f99"><param name="Name" value="m_LowHeadroom"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a67f7bdab37bab79797149cbdc08f863c"><param name="Name" value="m_MaxLerpTime"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a9223ca26cfab6f51c630f1339756c61a"><param name="Name" value="m_MoveDirection"></OBJECT>
@@ -2425,7 +2453,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#aabd40a5ab49c3cf230ed4ee3269b3735"><param name="Name" value="m_WaitForNextTurn"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a0d8d94916e6516cc65dab27085d22d44"><param name="Name" value="m_WaitTurnCount"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a564ee642ef8c01cc2cfafa0be8d0e8bc"><param name="Name" value="m_WaitTurnCounter"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#aa54c3655083c363c833e41b4fa9717d7"><param name="Name" value="move"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ac1c7cf97b6ae621e859c01d0fa2aafaa"><param name="Name" value="move"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ab77dfbf7433267de3c09256eed17e8f1"><param name="Name" value="moveMode"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a52983420ab6b00f940149bb56c0fd735"><param name="Name" value="moveMultipler"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#aa934b3bf5c5b922358590a2e5038b308"><param name="Name" value="moveObject"></OBJECT>
@@ -2439,9 +2467,9 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a283567ddaa4f64f0eb9296a942a4a0d3"><param name="Name" value="nearEdgeUp"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a1777dda6da9e0ee197fcf577d70ade18"><param name="Name" value="OnLand"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#aea00160cc177179c42861791c52fd274"><param name="Name" value="OnLerpEnd"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a2e5c509b511c3d47cf68f676a1c58076"><param name="Name" value="OnLevelWasLoaded"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a33394d2e2f3df1ab0f174a174ae207ee"><param name="Name" value="OnSetTransform"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a1d626e8a49a2dcdc1419c120aa95b90e"><param name="Name" value="originalCapsuleHeight"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#aac0967dc36b9a0d3085874ecf7090a7b"><param name="Name" value="originalStationaryTurnSpeed"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a5ff4a2c44ac292a91650db5e3b78a656"><param name="Name" value="physicsMaterials"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a96aa694b504fa937162472bddfd85acb"><param name="Name" value="restoreCapsuleSize"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a4c5b1d258236bcab52aec09d0d5826d0"><param name="Name" value="rigidbody"></OBJECT>
@@ -2462,7 +2490,6 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a989e16b44dabc94deb256068b27cef17"><param name="Name" value="triggerRootMotion"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a481f8b5efc8d60529d680da9a93310fd"><param name="Name" value="turnTransformToDirection"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ab2f146ee0ad8415336f93d1664154183"><param name="Name" value="unsetMoveObject"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a0ab4d5a2aba4950e64000ca7b9556331"><param name="Name" value="verticalInput"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html"><param name="Name" value="MLSpace::Trigger"></OBJECT>
   <UL>
@@ -2477,6 +2504,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#af0c4d329cc55f8b45b17b457d820550b"><param name="Name" value="exit"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#a54290031b8d225d0e0ba405adcc64487"><param name="Name" value="get_info_text"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#a0d1afaacfef57fc1e0a3e0206972bcc4"><param name="Name" value="initialize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#a399be59d3b91dc67afd28eb778378535"><param name="Name" value="inputTypeToStartTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#a14cf2596ebd4cf3e428c8fa5250635b2"><param name="Name" value="m_ConditionPassed"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#ace6a0095825bf8fa19cc21bd885cabd4"><param name="Name" value="m_Initialized"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#a1d1ba12f1b424396b953ffd3ec645a25"><param name="Name" value="onMatchTargetEnd"></OBJECT>
@@ -2484,6 +2512,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#aaa9094cfc6879681fbf42e34f9ece7cf"><param name="Name" value="priority"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#aaeb159fad0cb215d4006a0fea0b18d0e"><param name="Name" value="showDisplayText"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#a25f885cddd84e12cd130d33bfa680b41"><param name="Name" value="start"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#ae1a3b00b0e0a28d457587d520c3d4781"><param name="Name" value="startTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#ac7743d63f92483fc60c5e5e4e09a01ea"><param name="Name" value="switchTargetDirection"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#aa3cbe915fa434b659d394c1020b5f151"><param name="Name" value="tagged"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#a149d0b84f838b0a344d67c5069843594"><param name="Name" value="Target"></OBJECT>
@@ -2517,6 +2546,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#aef0f391c8802ba09d6754c73b6b5cc16"><param name="Name" value="AdditionalCondition"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#aa8d32cdd1dc017950814957f404b327c"><param name="Name" value="animator"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a8713a5d5d896dab21ab693277e228f2a"><param name="Name" value="BoolDelegate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a98c4b58717b35077e1db3f97176e5925"><param name="Name" value="breakCarMode"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a7e412ff8b2bacaf59f85f7642e8932a3"><param name="Name" value="breakTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#ae510de64590374289005360131b5be9e"><param name="Name" value="character"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#ae5e4813bda3113078b4f788f64f6c619"><param name="Name" value="clear"></OBJECT>
@@ -2535,7 +2565,6 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a9d3899942e14763cfd8fbf5ad4355427"><param name="Name" value="input"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a25c75ffbe35db0e991c9a8b63471b244"><param name="Name" value="interactCondition"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a8d56569ef10a7a3970d4ae380c601384"><param name="Name" value="ledgeManager"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a3b2f4b41536ceba1e3e6a32ee0512bfb"><param name="Name" value="leftHandTarget"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#ac94e71bba6ef06342134310f8534af36"><param name="Name" value="m_Animator"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#afa9fc326bb0cf6dbaee25b0405530fb3"><param name="Name" value="m_Character"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a559936a074834512772338f225044d22"><param name="Name" value="m_CollidedTrigger"></OBJECT>
@@ -2548,11 +2577,13 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#aafa56ecad5359c680093ca9f95c567a7"><param name="Name" value="m_HoldUse"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a0fd532223f462136fd899eb6323373e2"><param name="Name" value="m_IKHelper"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#ac4d95745e0f3d3a438a80a738de14734"><param name="Name" value="m_initialized"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#aa56085d9741ec2bfd07c1c8f7b440765"><param name="Name" value="m_LedgeManager"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a10e8ef2aa05cb086148dd5fb9617f128"><param name="Name" value="m_LookToTarget"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#abd327ba704a92c525c4c1f4397631d92"><param name="Name" value="m_MatchTargetBone"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a014ac2f768fe277778b75ebd8578e2b5"><param name="Name" value="m_MatchTime"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a8f45f68bfe8a172c7a145de830de9eba"><param name="Name" value="m_mtStartPosition"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a24999adc73cea386390e9d081b66e0fb"><param name="Name" value="m_Player"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#ae4b3423854bfdb0421f889c4b9209396"><param name="Name" value="m_PlayerMisc"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#aadc25d9bd1b4675692072014170a1046"><param name="Name" value="m_PrecSecUse"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#ad7a45e8aa1b21d0a352b3d0714618d86"><param name="Name" value="m_PrevIKHelperValue"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a3de10fbd13ae3c7b0e65425266c749cf"><param name="Name" value="m_PrevUse"></OBJECT>
@@ -2571,12 +2602,12 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#ae7cfb8c9b6157c0794414b920c022d97"><param name="Name" value="OnTriggerStay"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a79e20595ae6e82b6ab0e8d26d499de10"><param name="Name" value="player"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a226104322c344837a631824e7017eab2"><param name="Name" value="playerMisc"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a265a311bf624aebec32528955178c744"><param name="Name" value="rootBone"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a5561f01cf2db9f4d74fd7f6c409d88ff"><param name="Name" value="startCoverMode"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#ac604a499450faab6c1149ff20a1aa45f"><param name="Name" value="startLedgeAnimation"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#ad0431d90fb050445914210a2663d00bd"><param name="Name" value="startLedgeMode"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a54a951c3937e6a5551513ec07af4de22"><param name="Name" value="triggerActive"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a564670475a8c460afe09c0f302e30771"><param name="Name" value="triggerInfo"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a8c134306fa343f08be194b6360cbb7c0"><param name="Name" value="triggerParameters"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#ae9bf2d8e0e13b652e6e9b02da4673157"><param name="Name" value="Update"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a2b90c88fd74870827ed8e53ed7c554c5"><param name="Name" value="useCustomMatchTarget"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#ac949c4eeb3c824e435a72dfd3f7b7d83"><param name="Name" value="vert"></OBJECT>
@@ -2665,8 +2696,8 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#a75a16ecebd15c748eda81cd09d9d27a9"><param name="Name" value="spread"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#a56c179328117715b2d43a796e8224776"><param name="Name" value="Start"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#aac5c89ad1ab50806f9d84b0b35158461"><param name="Name" value="startReload"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#a96fd7e18bea0c85b135613977a5ef6f9"><param name="Name" value="update"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#aa8570883086b748ab607a94f193fd41c"><param name="Name" value="Update"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#a96fd7e18bea0c85b135613977a5ef6f9"><param name="Name" value="update"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#a01e24019bbac1dbaabc42b42220221c9"><param name="Name" value="useAimIK"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#ad639ca254ec59b9fcba0e04508b9256a"><param name="Name" value="weaponName"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#a544345e91ea67566f169b5bdc229a5c7"><param name="Name" value="weaponType"></OBJECT>
@@ -2707,7 +2738,15 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_match_target_creator.html#a855a6e6a2fbbd1077838db75a1c10e67"><param name="Name" value="mm_MatchTargetEndTime"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_car_controller.html#a22de26d29b83a333473b2a8c60836a73"><param name="Name" value="Move"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#aa54c3655083c363c833e41b4fa9717d7"><param name="Name" value="move"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ac1c7cf97b6ae621e859c01d0fa2aafaa"><param name="Name" value="move"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#a40c5cbed4a21cef5d2bb2ffd8b57e0d8"><param name="Name" value="moveCatchPosition"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#a40c5cbed4a21cef5d2bb2ffd8b57e0d8"><param name="Name" value="MLSpace::ClimbOnTrigger"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_enter_ledge_down.html#a2893ef136039e231fd1419b2b8a3df1b"><param name="Name" value="MLSpace::EnterLedgeDown"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#a92d3a3a0c11b4166d836d6a218cc5c22"><param name="Name" value="MLSpace::JumpOverTrigger"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#a69f85334d42f86ed46146badfd352411"><param name="Name" value="MLSpace::Leap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_run2_swing2_ledge.html#af2187693eb43e08205aeadf7a9c39bc6"><param name="Name" value="MLSpace::Run2Swing2Ledge"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_platform.html#a3abfc8c427fb754a6cb8be0eebb47942"><param name="Name" value="moveDown"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_generic_trigger.html#a7b92dcc467971101f3bf90a7d7cc5e83"><param name="Name" value="moveMethod"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ab77dfbf7433267de3c09256eed17e8f1"><param name="Name" value="moveMode"></OBJECT>
@@ -2787,6 +2826,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_orbit_camera_holder_editor.html#a6f01b9fe04edb918a78d50fd58f30e3e"><param name="Name" value="MLSpace::MLEditor::OrbitCameraHolderEditor"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_ragdoll_manager_editor.html#ab4fbc8f4e9367eb6212fdc0e2fb1604c"><param name="Name" value="MLSpace::MLEditor::RagdollManagerEditor"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_ragdoll_manager_gen_editor.html#aea76e1c09331695cd7820f838578c3a3"><param name="Name" value="MLSpace::MLEditor::RagdollManagerGenEditor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_trigger_editor.html#a2ff3923b078a553d0664644df1dbd878"><param name="Name" value="MLSpace::MLEditor::TriggerEditor"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_trigger_manager_editor.html#a1d0db5a87f3fe7b8330d23670a6cf644"><param name="Name" value="MLSpace::MLEditor::TriggerManagerEditor"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_weapon_item_editor.html#a4e4c39beda7cd8e34c3a631e4132fe15"><param name="Name" value="MLSpace::MLEditor::WeaponItemEditor"></OBJECT>
   </UL>
@@ -2797,22 +2837,21 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#a9b05fc769db6c24295a2a0ed4f5413dc"><param name="Name" value="onLedgeMatchTargetStart"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_manager.html#ab30cb22fb3daf1a9d5da4c43e2bf6646"><param name="Name" value="OnLedgeSwitchEnd"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#aea00160cc177179c42861791c52fd274"><param name="Name" value="OnLerpEnd"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a2e5c509b511c3d47cf68f676a1c58076"><param name="Name" value="OnLevelWasLoaded"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#a1d1ba12f1b424396b953ffd3ec645a25"><param name="Name" value="onMatchTargetEnd"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_car_trigger.html#a488544e174833dda55b2577e8e7bcadd"><param name="Name" value="onMatchTargetStart"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_car_trigger.html#a488544e174833dda55b2577e8e7bcadd"><param name="Name" value="MLSpace::CarTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#ac6638834f33460b720b4c61a4979be01"><param name="Name" value="MLSpace::ClimbOnTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_enter_ledge_down.html#a84688c21916c793214149e0cbcb1d13b"><param name="Name" value="MLSpace::EnterLedgeDown"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_generic_trigger.html#a6e6dd7f8181142e47f0c5fd173ab187c"><param name="Name" value="MLSpace::GenericTrigger"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_generic_trigger.html#aa431c88f172c320fce4ea89764dc28f8"><param name="Name" value="OnMatchTargetStart"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump2_ledge_trigger.html#ac4c8f0eed596893c69f314ef46d89029"><param name="Name" value="onMatchTargetStart"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_generic_trigger.html#a6e6dd7f8181142e47f0c5fd173ab187c"><param name="Name" value="onMatchTargetStart"></OBJECT>
   <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_generic_trigger.html#a6e6dd7f8181142e47f0c5fd173ab187c"><param name="Name" value="MLSpace::GenericTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump2_ledge_trigger.html#ac4c8f0eed596893c69f314ef46d89029"><param name="Name" value="MLSpace::Jump2LedgeTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_down_trigger.html#a315703df158c7921865d11d7efc4fef1"><param name="Name" value="MLSpace::JumpDownTrigger"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_forward_trigger.html#a57e4a138b85cf59fd206ab4b37c2ddc9"><param name="Name" value="MLSpace::JumpForwardTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#acaa4a20d370afd7c997dabf94a769c31"><param name="Name" value="MLSpace::JumpOverTrigger"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#a32c8346f4e434954c5b3f6d65a98fe33"><param name="Name" value="MLSpace::Leap"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_trigger_creator.html#a86657d524a8b5ae3d5d40c6b1347692d"><param name="Name" value="OnMatchTargetStart"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_open_door_trigger.html#ad242832c78dd04b9ebec8314de10d580"><param name="Name" value="onMatchTargetStart"></OBJECT>
@@ -2869,7 +2908,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a3ebe5a754d27db802a463ae996f302ec"><param name="Name" value="OnWeaponPutawayCallback"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_ragdoll_creator.html#a03edc4188546661998d6bd43b87d7dcb"><param name="Name" value="OnWizardCreateCallback"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_door.html#abb2488097dbdb591bc4a303f3d82192a"><param name="Name" value="open"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_door.html#aece8c441a9b577d42c32076dcd3870fb"><param name="Name" value="openDoor"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_door.html#a7c805cb6452d281b36994017f8442139"><param name="Name" value="openDoorAudioClip"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_car_control_user.html#a4c6e36fa88ffb26635e1a9894f7b087e"><param name="Name" value="openDoorClip"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_ragdoll_creator.html#a65bdff4f78ef81544e13d669727f0c2d"><param name="Name" value="operator bool"></OBJECT>
   <UL>
@@ -2879,6 +2918,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ragdoll_manager_1_1_body_part_info.html#a688fa36bc78b351eaa9ad97c13d668ac"><param name="Name" value="orig_parent"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a1d626e8a49a2dcdc1419c120aa95b90e"><param name="Name" value="originalCapsuleHeight"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_camera_info.html#acf9bfada93e937b6f021a670e20d1194"><param name="Name" value="originalLocalPosition"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#aac0967dc36b9a0d3085874ecf7090a7b"><param name="Name" value="originalStationaryTurnSpeed"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_collider_script.html#a0acee1ea8e632a143b84995b5ec14b02"><param name="Name" value="ParentObject"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_body_collider_script.html#af61934f0536dbcc43b113008bdf3e9fa"><param name="Name" value="ParentRagdollManager"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_particle_effect.html#a166020ff7a3b65af16a6be4621e1344f"><param name="Name" value="particles"></OBJECT>
@@ -2943,8 +2983,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_trigger_creator.html#aa6aa5553c10d30e9c4ca463673183da1"><param name="Name" value="replace"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a96aa694b504fa937162472bddfd85acb"><param name="Name" value="restoreCapsuleSize"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_protect_from_walls.html#aae5246ffa16d3885e94bbe313abb6663"><param name="Name" value="returnTime"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#acb6b27eb53480e7152c64a77e4444fab"><param name="Name" value="reversed"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#a9494fa6dd880616410f1b048d8f4d876"><param name="Name" value="reverseOnLedge"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_car_controller.html#a686bc9bcbd4de06635c7eecf7134bc87"><param name="Name" value="Revs"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ad734b3932d39dbb19b5813ddfacd60c1"><param name="Name" value="RFootIKEnabled"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a5c458814b50b65c00dba733e5faa675b"><param name="Name" value="RFPosition"></OBJECT>
@@ -2974,6 +3012,7 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ragdoll_manager_1_1_body_part_info.html#a858f5fa7d89de98eb14fb46079cf5c98"><param name="Name" value="MLSpace::RagdollManager::BodyPartInfo"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a4c5b1d258236bcab52aec09d0d5826d0"><param name="Name" value="rigidbody"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a265a311bf624aebec32528955178c744"><param name="Name" value="rootBone"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ragdoll_manager.html#a5ff55a3457c90f1edbb160c61f1e5f32"><param name="Name" value="rootTransform"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_info.html#a7bd71dda04acb9e38fdb3bcca03775fd"><param name="Name" value="rot_maxTime"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_info.html#aab4a97eff35f0fc6d0767c54d0af44ad"><param name="Name" value="rot_speed"></OBJECT>
@@ -3053,9 +3092,9 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_item_trigger.html#a68ade0f643bc31faccf26016edf6b886"><param name="Name" value="MLSpace::ItemTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump2_ledge_trigger.html#a8e9b7da43ec5b687638b6abce7159df7"><param name="Name" value="MLSpace::Jump2LedgeTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_down_trigger.html#abbf2b52f1c51a0757d94400825a26dcc"><param name="Name" value="MLSpace::JumpDownTrigger"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_forward_trigger.html#aa3bbde097c34c2669fbd7283185803aa"><param name="Name" value="MLSpace::JumpForwardTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#a9a7c0df31aa343e398300a4430df6741"><param name="Name" value="MLSpace::JumpOverTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ladder_trigger.html#a192c8382d5acd8ab9bf3519be410c26d"><param name="Name" value="MLSpace::LadderTrigger"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#a07ac71303a581d5cc79b5010e2733e9c"><param name="Name" value="MLSpace::Leap"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge_trigger.html#ada329b907bbcf1ee07c34f2e227d24f8"><param name="Name" value="MLSpace::LedgeTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_open_door_trigger.html#a8b0b20cc3fefcc1eb358d3481305ed01"><param name="Name" value="MLSpace::OpenDoorTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_push_pull_trigger.html#ab52785b89791fc781bb45b235f62b257"><param name="Name" value="MLSpace::PushPullTrigger"></OBJECT>
@@ -3090,6 +3129,7 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_wheel_effects.html#afa455861886a650544acf4ada569add2"><param name="Name" value="StartSkidTrail"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_car_audio.html#a6caf18b3d69b167ecc1df1d9e2a8767b"><param name="Name" value="StartSound"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_platform.html#a89c821e3a9c2608a9cc43ab15fe81cbd"><param name="Name" value="startSound"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#ae1a3b00b0e0a28d457587d520c3d4781"><param name="Name" value="startTrigger"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ragdoll_manager.html#a4139e7a7d266a6336117a9772da17ca5"><param name="Name" value="state"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_generic_trigger.html#a1a40765e2fdbc1453c28792833c69333"><param name="Name" value="stateName"></OBJECT>
   <UL>
@@ -3112,9 +3152,8 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a8e118b509567f7d19fec6262cb470d75"><param name="Name" value="strafing"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_ragdoll_creator.html#a8e1be8d43f7ad1f53c59e7618a42ffe2"><param name="Name" value="strength"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#ab53b06eff7955fbbc2e085020e650b29"><param name="Name" value="switchHeadLookPos"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#ae14eb142d05bbe4b488b9194d656dc61"><param name="Name" value="switchTargetDirection"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_trigger_creator.html#a756bbf4940764fca8b25e8f875127d0d"><param name="Name" value="switchTargetDirection"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#ae14eb142d05bbe4b488b9194d656dc61"><param name="Name" value="MLSpace::Ledge"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_trigger_creator.html#a756bbf4940764fca8b25e8f875127d0d"><param name="Name" value="MLSpace::MLEditor::TriggerCreator"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger.html#ac7743d63f92483fc60c5e5e4e09a01ea"><param name="Name" value="MLSpace::Trigger"></OBJECT>
   </UL>
@@ -3181,7 +3220,6 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_trigger_creator.html#af3cd863d0dc890d790386826264fa873"><param name="Name" value="MLSpace::MLEditor::TriggerCreator"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_trigger_creator.html#ad9d8d6ceb326055a4c7f000ae821cd6f"><param name="Name" value="triggerObject"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a8c134306fa343f08be194b6360cbb7c0"><param name="Name" value="triggerParameters"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_mine_trigger.html#ac244bbc43629fc8f304f59fe7207d46e"><param name="Name" value="triggerRadius"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a989e16b44dabc94deb256068b27cef17"><param name="Name" value="triggerRootMotion"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#a41fa097d9ce3aa3dab57ae3a0386a4a3"><param name="Name" value="triggers"></OBJECT>
@@ -3190,6 +3228,7 @@
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_climb_on_trigger.html#ae53de387fcd299122b16017ce3e50972"><param name="Name" value="MLSpace::ClimbOnTrigger"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_jump_over_trigger.html#abb044c93aa602049f291a5778a9f93bc"><param name="Name" value="MLSpace::JumpOverTrigger"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_leap.html#a34715f5afaed0fea2f13fa8ac0594f92"><param name="Name" value="MLSpace::Leap"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_run2_swing2_ledge.html#a9d53586c46c78c45a133049a848c8c82"><param name="Name" value="MLSpace::Run2Swing2Ledge"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a481f8b5efc8d60529d680da9a93310fd"><param name="Name" value="turnTransformToDirection"></OBJECT>
@@ -3217,6 +3256,8 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_unity_editor.html"><param name="Name" value="UnityEditor"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ab2f146ee0ad8415336f93d1664154183"><param name="Name" value="unsetMoveObject"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_base_camera_holder.html#a20e0724dea4473a7c0c12fbcb329c171"><param name="Name" value="update"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction.html#af6480f2b51afad0170a5497740ca1604"><param name="Name" value="Update"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_destruction_part.html#a73bda5173453449de9b610cc3123800e"><param name="Name" value="update"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_explosion_manager.html#a11e2e31886bbfb830dd1882cf2409b34"><param name="Name" value="Update"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_melee_weapon.html#a03c680372e02198e045fe190b12a6c34"><param name="Name" value="update"></OBJECT>
   <UL>
@@ -3238,7 +3279,7 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#a96fd7e18bea0c85b135613977a5ef6f9"><param name="Name" value="update"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ragdoll_manager.html#aaa7272dde58608aecad5fced44107830"><param name="Name" value="updateCustomVelocities"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#afc215f12b10b92b5defa31f9014b2449"><param name="Name" value="updatePoints"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#ace1c7a10e3c87533273c204cdc29f295"><param name="Name" value="updatePoints"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_platform_script.html#ab8d0242913917662c4315adda1d035cf"><param name="Name" value="upHeight"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ledge.html#a09bbd40d0250f95ceb2e7efcf0186fe1"><param name="Name" value="upLedge"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#a01e24019bbac1dbaabc42b42220221c9"><param name="Name" value="useAimIK"></OBJECT>
@@ -3257,7 +3298,6 @@
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_m_l_editor_1_1_vehicle_setup.html#a6fae2a2e992a1f9a0f55a83cd8e912e9"><param name="Name" value="vehicleObject"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_ragdoll_manager.html#aedff7cf68afded8dc71b75bf4cfa7256"><param name="Name" value="velocityModifier"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#ac949c4eeb3c824e435a72dfd3f7b7d83"><param name="Name" value="vert"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a0ab4d5a2aba4950e64000ca7b9556331"><param name="Name" value="verticalInput"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_player.html#aaa6ce24626f59310d530ead15078dbbc"><param name="Name" value="viewReloadFromBack"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_debug_u_i.html#a44a7fd4ba836aca513a2eb4248361839"><param name="Name" value="Visible"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_l_space_1_1_health_u_i.html#ad4b6a584a8866562f8bf1ec0726fdb43"><param name="Name" value="visible"></OBJECT>

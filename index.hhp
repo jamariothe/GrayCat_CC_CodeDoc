@@ -1,5 +1,5 @@
 [OPTIONS]
-Compiled file=GrayCatCC.chm
+Compiled file=GrayCat_CC_v1.0
 Compatibility=1.1
 Full-text search=Yes
 Contents file=index.hhc
@@ -7,10 +7,10 @@ Default Window=main
 Default topic=index.html
 Index file=index.hhk
 Language=0x409 English (United States)
-Title=GrayCatCC
+Title=GrayCat_CC
 
 [WINDOWS]
-main="GrayCatCC","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+main="GrayCat_CC","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
 
 [FILES]
 namespace_m_l_space.html
@@ -87,12 +87,12 @@ class_m_l_space_1_1_jump2_ledge_trigger.html
 class_m_l_space_1_1_jump2_ledge_trigger-members.html
 class_m_l_space_1_1_jump_down_trigger.html
 class_m_l_space_1_1_jump_down_trigger-members.html
-class_m_l_space_1_1_jump_forward_trigger.html
-class_m_l_space_1_1_jump_forward_trigger-members.html
 class_m_l_space_1_1_jump_over_trigger.html
 class_m_l_space_1_1_jump_over_trigger-members.html
 class_m_l_space_1_1_ladder_trigger.html
 class_m_l_space_1_1_ladder_trigger-members.html
+class_m_l_space_1_1_leap.html
+class_m_l_space_1_1_leap-members.html
 class_m_l_space_1_1_ledge.html
 class_m_l_space_1_1_ledge-members.html
 class_m_l_space_1_1_ledge_manager.html
@@ -204,6 +204,8 @@ class_m_l_space_1_1_m_l_editor_1_1_t_p_player_creator.html
 class_m_l_space_1_1_m_l_editor_1_1_t_p_player_creator-members.html
 class_m_l_space_1_1_m_l_editor_1_1_trigger_creator.html
 class_m_l_space_1_1_m_l_editor_1_1_trigger_creator-members.html
+class_m_l_space_1_1_m_l_editor_1_1_trigger_editor.html
+class_m_l_space_1_1_m_l_editor_1_1_trigger_editor-members.html
 class_m_l_space_1_1_m_l_editor_1_1_trigger_manager_editor.html
 class_m_l_space_1_1_m_l_editor_1_1_trigger_manager_editor-members.html
 class_m_l_space_1_1_m_l_editor_1_1_vehicle_setup.html
@@ -359,9 +361,9 @@ class_m_l_space_1_1_i_k_helper.png
 class_m_l_space_1_1_item_trigger.png
 class_m_l_space_1_1_jump2_ledge_trigger.png
 class_m_l_space_1_1_jump_down_trigger.png
-class_m_l_space_1_1_jump_forward_trigger.png
 class_m_l_space_1_1_jump_over_trigger.png
 class_m_l_space_1_1_ladder_trigger.png
+class_m_l_space_1_1_leap.png
 class_m_l_space_1_1_ledge.png
 class_m_l_space_1_1_ledge_manager.png
 class_m_l_space_1_1_ledge_trigger.png
@@ -412,6 +414,7 @@ class_m_l_space_1_1_m_l_editor_1_1_ragdoll_manager_gen_editor.png
 class_m_l_space_1_1_m_l_editor_1_1_setup_editor.png
 class_m_l_space_1_1_m_l_editor_1_1_t_p_player_creator.png
 class_m_l_space_1_1_m_l_editor_1_1_trigger_creator.png
+class_m_l_space_1_1_m_l_editor_1_1_trigger_editor.png
 class_m_l_space_1_1_m_l_editor_1_1_trigger_manager_editor.png
 class_m_l_space_1_1_m_l_editor_1_1_vehicle_setup.png
 class_m_l_space_1_1_m_l_editor_1_1_weapon_creator.png
